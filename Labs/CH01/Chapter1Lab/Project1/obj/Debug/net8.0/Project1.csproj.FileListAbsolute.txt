@@ -1,0 +1,15 @@
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\bin\Debug\net8.0\Project1.exe
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\bin\Debug\net8.0\Project1.deps.json
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\bin\Debug\net8.0\Project1.runtimeconfig.json
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\bin\Debug\net8.0\Project1.dll
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\bin\Debug\net8.0\Project1.pdb
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.AssemblyInfoInputs.cache
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.AssemblyInfo.cs
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.sourcelink.json
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.dll
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\refint\Project1.dll
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.pdb
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\Project1.genruntimeconfig.cache
+C:\Users\Matthew\Documents\GitHub\awd1115-coursework-matthew-macias99\Labs\CH01\Chapter1Lab\Project1\obj\Debug\net8.0\ref\Project1.dll
