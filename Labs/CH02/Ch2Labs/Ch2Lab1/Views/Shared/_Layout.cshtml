@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <a class="btn btn-primary mt-2" asp-area="" asp-controller="Home" asp-action="Index">Price Quote Calculator</a>
+        <a class="btn btn-primary mt-2" asp-area="" asp-controller="TipCalculator" asp-action="Index">Tip Calculator</a>
+        @RenderBody()
+    </div>
+</body>
+</html>

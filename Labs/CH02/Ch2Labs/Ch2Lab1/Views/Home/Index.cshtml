@@ -1,15 +1,28 @@
-﻿
+﻿@model PriceQuoteModel
 @{
-	Layout = null;
+	Layout = "_Layout";
 }
-<!DOCTYPE html>
-<html>
-<head>
 
-</head>
-<body>
-	<h1>Homey Page</h1>
-	<h2>@ViewBag.Name</h2>
-	<h3>@ViewBag.Salary.ToString("C")</h3>
-</body>
-</html>
+	<h1>Price Quotation</h1>
+	<form asp-action="Index" method="post">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<div class="mb-2">
+			<label asp-for="Subtotal" class="form-label">Subtotal: </label>
+			<input asp-for="Subtotal" class="form-control"/>
+		</div>
+		<div class="mb-2">
+			<label asp-for="DiscountPercent" class="form-label">Discount Percent: </label>
+			<input asp-for="DiscountPercent" class="form-control" />
+		</div>
+		<div class="mb-2">
+			<label asp-for="DiscountAmount" class="form-label">Discount Amount: </label>
+			<input value="@ViewBag.DiscountAmount.ToString("C")" class="form-control" readonly />
+		</div>
+		<div class="mb-2">
+			<label asp-for="Total" class="form-label">Total: </label>
+			<input value="@ViewBag.Total.ToString("C")" readonly class="form-control" />
+		</div>
+
+		<button type="submit" class="btn btn-primary ">Calculate</button>
+		<a asp-action="Index" class="btn btn-secondary">Clear</a>
+	</form>
