@@ -1,0 +1,51 @@
+﻿@model PriceQuoteModel
+@{
+	Layout = "layout";
+}
+
+<header class="bg-success text-white text-center rounded-3 py-3 px-3 mb-4">
+	<h1 class="m-0">Price Quotation</h1>
+</header>
+
+<form asp-action="Index" method="post" novalidate>
+	<div class="row align-items-baseline-center mb-3">
+		<label asp-for="Subtotal" class="col-12 col-md-3 col-form-label">Subtotal: </label>
+		<div class="col-12 col-md-5">
+			<input asp-for="Subtotal" class="form-control"/>
+		</div>
+		<div class="col-12 col-md-4">
+			<span asp-validation-for="Subtotal" class="text-danger"></span>
+		</div>
+	</div>
+
+	<div class="row align-items-center mb-3">
+		<label asp-for="DiscountPercent" class="col-12 col-md-3 col-form-label">Discount Percent: </label>
+		<div class="col-12 col-md-5">
+			<input asp-for="DiscountPercent" class="form-control" />
+		</div>
+		<div class="col-12 col-md-4">
+			<span asp-validation-for="DiscountPercent" class="text-danger"></span>
+		</div>
+	</div>
+
+	<div class="row align-items-center mb-3">
+		<label class="col-12 col-md-3 col-form-label">Discount Amount: </label>
+		<div class="col-12 cold-md-5">
+			<input class="form-control" readonly value="@((ViewBag.DiscountAmount ?? 0m).ToString("C"))"/>
+		</div>
+		<div class="col-12 col-md-4"></div>
+	</div>
+
+	<div class="row align-items-center mb-3">
+		<label class="col-12 col-md-3 col-form-label">Total: </label>
+		<div class="col-12 cold-md-5">
+			<input class="form-control" readonly value="@((ViewBag.Total ?? 0m).ToString("C"))" />
+		</div>
+		<div class="col-12 col-md-4"></div>
+	</div>
+
+	<div class="d-flex gap-2">
+		<button type="submit" class="btn btn-success">Calculate</button>
+		<a asp-action="Index" class="btn btn-success">Clear</a>
+	</div>
+</form>
