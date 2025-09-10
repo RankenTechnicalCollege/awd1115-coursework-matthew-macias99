@@ -1,0 +1,30 @@
+﻿@model HOT1.Models.DistanceConverterModel
+@{
+	ViewData["Title"] = "Distance Converter";
+}
+
+<div class="container my-5">
+	<div class="row justify-content-center">
+		<div class="col-md-6">
+			<h1 class="mb-4">Distance Converter</h1>
+
+			<form asp-action="Index" method="post" novalidate>
+				<div class="form-floating mb-3">
+					<input asp-for="Inches" class="form-control" placeholder=" "/>
+					<label asp-for="Inches"></label>
+					<span asp-validation-for="Inches" class="text-danger"></span>
+				</div>
+
+				<button type="submit" class="btn btn-primary">Convert to Centimeters</button>
+			</form>
+
+			@if (Model?.ResultMessage != null)
+			{
+				<div class="mt-4 text-success">
+					@Model.ResultMessage
+				</div>
+			}
+
+		</div>
+	</div>
+</div>
