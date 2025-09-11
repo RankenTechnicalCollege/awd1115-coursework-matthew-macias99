@@ -1,0 +1,64 @@
+:root{
+    --brand-bg: #ff6a00;
+    --brand-accent: #22c55e;
+    --brand-accent-2: #f59e0b;
+    --brand-text: #0b1220;
+}
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Poppins", system-ui, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+navbar {
+    background: var(--brand-bg);
+}
+
+.navbar-brand{
+    color: var(--brand-accent);
+}
+.btn-brand {
+    background: var(--brand-accent);
+    border: 0;
+}
+.btn-brand:hover{
+    filter: brightness(0.95);
+}
+
+.hero{
+    padding: 6rem 0 5rem;
+    text-align: center;
+}
+
+.search-pill{
+    max-width: 640px;
+    margin: 1.25rem auto 0;
+    border-radius: 9999px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.06);
+}
+
+footer {
+    background: var(--brand-bg);
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
