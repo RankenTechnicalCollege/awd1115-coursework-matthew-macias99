@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "FinalProjectHome\\Views\\_ViewImports.cshtml",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "FinalProjectHome\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-11T19:35:52.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T19:35:52.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Home\\Index.cshtml",
@@ -56,16 +55,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "FinalProjectHome\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\wwwroot\\css\\site.css",
               "RelativeToolTip": "FinalProjectHome\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-11T19:09:45.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T19:09:45.037Z"
             },
             {
               "$type": "Document",
@@ -75,7 +73,7 @@
               "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "FinalProjectHome\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-11T19:05:51.389Z",
               "EditorCaption": ""
