@@ -1,0 +1,42 @@
+﻿@model IEnumerable<HOT2.Models.Product>
+@{
+	ViewBag.Title = "Product List";
+}
+<h2>Product List</h2>
+<div class="container">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Short Description</th>
+				<th>Long Description</th>
+				<th>Image</th>
+				<th>Price</th>
+				<th>Quantity</th>
+				<th>Category</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@item.ProductName</td>
+					<td>@item.ProductDescShort</td>
+					<td>@item.ProductDescLong</td>
+					<td>@item.ProductImage</td>
+					<td>@item.ProductPrice.ToString("C")</td>
+					<td>@item.ProductQty</td>
+					<td@(item.Category?.CategoryName ?? "")></td>
+					<td>
+						<a asp-action="AddEdit" asp-route-id="@item.ProductId" class="btn btn-primary">Edit</a>
+						<a asp-action="Delete" asp-route-id="@item.ProductId" asp-route-slug="@item.Slug" class="btn btn-danger">Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+	<a asp-action="AddEdit" class="btn btn-primary">Add Product</a>
+
+</div>
+

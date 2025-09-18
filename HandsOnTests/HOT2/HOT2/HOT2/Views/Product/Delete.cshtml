@@ -1,0 +1,12 @@
+﻿@model HOT2.Models.Product
+@{
+	ViewBag.Title = $"Delete {Model.ProductName}";
+}
+
+<h1>Confirm Deletion</h1>
+<p>Are you sure you want to delete <strong>@Model.ProductName ?</strong></p>
+<form asp-action="Delete" method="post">
+	<input type="hidden" asp-for="ProductId"/>
+	<input type="submit" value="Delete" class="btn btn-danger"/>
+	<a asp-controller="Product" asp-action="List" class="btn btn-secondary">Cancel</a>
+</form>
