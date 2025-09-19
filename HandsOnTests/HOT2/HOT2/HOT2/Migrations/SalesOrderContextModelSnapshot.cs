@@ -155,16 +155,14 @@ namespace HOT2.Migrations
                     b.HasOne("HOT2.Models.Product", "Product")
                         .WithOne("Category")
                         .HasForeignKey("HOT2.Models.Category", "ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Product");
                 });
 
             modelBuilder.Entity("HOT2.Models.Product", b =>
                 {
-                    b.Navigation("Category")
-                        .IsRequired();
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

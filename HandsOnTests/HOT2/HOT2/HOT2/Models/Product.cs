@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace HOT2.Models
 {
@@ -18,6 +19,7 @@ namespace HOT2.Models
         [Range(1,1000, ErrorMessage = "Quantity must be between 1 and 1000")]
         public int ProductQty { get; set; }
 
+        [ValidateNever]
         public Category? Category { get; set; }
 
         public string Slug => ProductName?.Replace(" ", "-").ToLower();

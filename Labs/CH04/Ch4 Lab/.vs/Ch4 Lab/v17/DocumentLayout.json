@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\views\\contact\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\views\\contact\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch04\\ch4 lab\\contactmanager\\models\\contactmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C59A6B-DEC8-46D7-A905-5CA16E0EDDD5}|ContactManager\\ContactManager.csproj|solutionrelative:contactmanager\\models\\contactmanagercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ContactManager\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ContactManager\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-18T19:40:34.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ContactManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ContactManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T19:30:37.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ContactManager\\Views\\Contact\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\Delete.cshtml",
+              "RelativeToolTip": "ContactManager\\Views\\Contact\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T19:28:55.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\Details.cshtml",
+              "RelativeDocumentMoniker": "ContactManager\\Views\\Contact\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\Details.cshtml",
+              "RelativeToolTip": "ContactManager\\Views\\Contact\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T19:25:53.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "ContactManager\\Views\\Contact\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\AddEdit.cshtml",
+              "RelativeToolTip": "ContactManager\\Views\\Contact\\AddEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T19:18:50.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "ContactManager\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "ContactManager\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T19:12:49.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "ContactManager\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "ContactManager\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:57:22.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContactManagerContext.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Models\\ContactManagerContext.cs",
+              "RelativeDocumentMoniker": "ContactManager\\Models\\ContactManagerContext.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Models\\ContactManagerContext.cs",
+              "RelativeToolTip": "ContactManager\\Models\\ContactManagerContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:38:31.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "ContactManager\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Models\\Contact.cs",
+              "RelativeToolTip": "ContactManager\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:31:29.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ContactManager\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH04\\Ch4 Lab\\ContactManager\\Models\\Category.cs",
+              "RelativeToolTip": "ContactManager\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:31:15.251Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

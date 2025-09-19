@@ -29,14 +29,14 @@
 					<td>@item.ProductQty</td>
 					<td@(item.Category?.CategoryName ?? "")></td>
 					<td>
-						<a asp-action="AddEdit" asp-route-id="@item.ProductId" class="btn btn-primary">Edit</a>
+						<a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-primary">Edit</a>
 						<a asp-action="Delete" asp-route-id="@item.ProductId" asp-route-slug="@item.Slug" class="btn btn-danger">Delete</a>
 					</td>
 				</tr>
 			}
 		</tbody>
 	</table>
-	<a asp-action="AddEdit" class="btn btn-primary">Add Product</a>
+	<a asp-action="Add" class="btn btn-primary">Add Product</a>
 
 </div>
 

@@ -32,14 +32,15 @@ namespace HOT2.Controllers
         }
 
         //delete product
-        [HttpGet]
+        [HttpGet("product/delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var productToDelete = await _context.Products.FindAsync(id);
             return View(productToDelete);
         }
 
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         [Route("product/delete/{id}")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -52,58 +53,58 @@ namespace HOT2.Controllers
             return RedirectToAction("List", "Product");
         }
 
-        //add & edit product
+        //GET add
         [HttpGet]
-        public async Task<IActionResult> AddEdit(int id)
+        public IActionResult Add()
         {
-            if(id == 0)
-            {
-                ViewBag.Operation = "Add";
-                var model = new Product
-                {
-                    Category = new Category()
-                };
-                ViewBag.Categories = BuildCategorySelectList();
-                return View(model);
-            }
-            ViewBag.Operation = "Edit";
-            var product = await _context.Products.Include(p => p.Category).FirstOrDefaultAsync(p => p.ProductId == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            product.Category ??= new Category { ProductId = product.ProductId};
-            ViewBag.Categories = BuildCategorySelectList(product.Category.CategoryName);
-            return View(product);
+            ViewBag.Categories = BuildCategorySelectList();
+            var model = new Product() { Category = new Category() };
+            return View("AddEdit", model);  
         }
 
+        //GET edit
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var product = await _context.Products.Include(p => p.Category).FirstOrDefaultAsync(p => p.ProductId == id);
+
+            if (product is null) return NotFound();
+
+            product.Category ??= new Category { ProductId = product.ProductId };
+            ViewBag.Categories = BuildCategorySelectList(product.Category.CategoryName);
+            return View("AddEdit", product);
+        }
+
+        //POST save (add or edit)
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddEdit(Product product)
+        public async Task<IActionResult> Save(Product product)
         {
-            ViewBag.Operation = product.ProductId == 0 ? "Add" : "Edit";
+            var catName = product.Category?.CategoryName;
+            product.Category = null;
 
-             if (!ModelState.IsValid)
+
+            if (!ModelState.IsValid)
             {
                 var selected = product.Category?.CategoryName;
                 ViewBag.Categories = BuildCategorySelectList(selected);
                 product.Category ??= new Category();
-                return View(product);
+                return View("AddEdit", product);    
             }
-             if (product.ProductId == 0)
+
+            if (product.ProductId == 0)
             {
                 _context.Products.Add(product);
                 await _context.SaveChangesAsync();
 
-                var categoryName = product.Category?.CategoryName;
-                if(!string.IsNullOrWhiteSpace(categoryName))
+                var categoryName = product.Category?.CategoryName?.Trim();
+                if (!string.IsNullOrEmpty(categoryName))
                 {
-                    var category = new Category
+                    _context.Categories.Add(new Category
                     {
                         ProductId = product.ProductId,
-                        CategoryName = categoryName.Trim()
-                    };
-                    _context.Categories.Add(category);
+                        CategoryName = categoryName
+                    });
                     await _context.SaveChangesAsync();
                 }
             }
@@ -111,24 +112,24 @@ namespace HOT2.Controllers
             {
                 _context.Products.Update(product);
 
-                var existingCategory = await _context.Categories.FirstOrDefaultAsync(c => c.ProductId == product.ProductId);
+                var exisitingCategory = await _context.Categories.FirstOrDefaultAsync(c => c.ProductId == product.ProductId);
                 var categoryName = product.Category?.CategoryName?.Trim();
 
-                if(existingCategory == null && !string.IsNullOrWhiteSpace(categoryName))
+                if(exisitingCategory == null && !string.IsNullOrWhiteSpace(categoryName))
                 {
                     _context.Categories.Add(new Category
                     {
                         ProductId = product.ProductId,
-                        CategoryName = categoryName!.Trim()
+                        CategoryName = categoryName
                     });
-                }else if(existingCategory != null)
+                }else if(exisitingCategory != null)
                 {
-                    existingCategory.CategoryName = categoryName ?? existingCategory.CategoryName;
-                    _context.Categories.Update(existingCategory);
+                    exisitingCategory.CategoryName = categoryName ?? exisitingCategory.CategoryName;
+                    _context.Categories.Update(exisitingCategory);
                 }
                 await _context.SaveChangesAsync();
             }
-                return RedirectToAction("List", "Product");
+            return RedirectToAction(nameof(List));
         }
 
     }

@@ -18,14 +18,16 @@ namespace HOT2.Models
                 new Product { ProductId = 5, ProductName = "Dog Ear Aero-Flow Floor Pump", ProductDescShort = "", ProductDescLong = "", ProductImage = "", ProductPrice = 5, ProductQty = 25 }
             );
 
+            modelBuilder.Entity<Category>().HasKey(c => c.ProductId);
+
+            modelBuilder.Entity<Category>().Property(c => c.ProductId).ValueGeneratedNever();
+
             modelBuilder.Entity<Product>()
                 .HasOne(p => p.Category)
                 .WithOne(c => c.Product)
                 .HasForeignKey<Category>(c => c.ProductId)
                 .IsRequired(false)
                 .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<Category>().Property(c => c.ProductId).ValueGeneratedNever();
 
             modelBuilder.Entity<Category>().HasData(
                 new Category { ProductId = 1, CategoryName = "Accessories" },

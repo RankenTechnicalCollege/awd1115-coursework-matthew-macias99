@@ -1,0 +1,11 @@
+﻿@model ContactManager.Models.Contact
+
+<h2>Delete Contact</h2>
+<p>Are you sure you want to delete <strong>@Model.FirstName @Model.LastName</strong> from your contacts?</p>
+
+<form asp-action="Delete" method="post">
+	@Html.AntiForgeryToken()
+	<input type="hidden" asp-for="ContactId" />
+	<button type="submit" class="btn btn-danger">Yes</button>
+	<a asp-action="Index" class="btn btn-secondary">No</a>
+</form>
