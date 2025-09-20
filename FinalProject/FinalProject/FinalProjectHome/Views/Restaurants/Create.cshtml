@@ -1,0 +1,42 @@
+﻿@model FinalProjectHome.Models.Restaurant
+@{
+	ViewData["Title"] = "Create Restaurant";
+}
+
+<h1 class="m-3">Create Restaurant</h1>
+
+<form asp-action="Create" method="post" class="card card-body">
+
+	<div class="mb-3">
+		<label asp-for="Name" class="form-label"></label>
+		<input asp-for="Name" class="form-control"/>
+		<span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Category" class="form-label"></label>
+		<input asp-for="Category" class="form-control" />
+		<span asp-validation-for="Category" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="PriceLevel" class="form-label"></label>
+		<select asp-for="PriceLevel" class="form-select" asp-items="ViewBag.PriceLevels"></select>
+		<span asp-validation-for="PriceLevel" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Rating" class="form-label"></label>
+		<select asp-for="Rating" class="form-select" asp-items="ViewBag.Ratings"></select>
+		<span asp-validation-for="Rating" class="text-danger"></span>
+	</div>
+
+	<div class="d-flex gap-2">
+		<button type="submit" class="btn btn-primary">Save</button>
+		<a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+	</div>
+</form>
+
+@section Scripts{
+	<partial name="_ValidationScriptsPartial"/>
+}

@@ -1,0 +1,16 @@
+﻿@model FinalProjectHome.Models.Restaurant
+@{
+	ViewData["Title"] = "Delete Restaurant";
+}
+
+<h1 class="m-3 text-danger fw-bold">Delete Restaurant</h1>
+
+<div class="alert alert-warning">
+	Are you sure you want to delete <strong>@Model.Name</strong>?
+</div>
+
+<form asp-action="Delete" method="post" class="d-inline">
+	<input type="hidden" asp-for="RestaurantId" />
+	<button type="submit" class="btn btn-danger">Yes</button>
+</form>
+<a asp-action="Index" class="btn btn-outline-secondary ms-1">Cancel</a>
