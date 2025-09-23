@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5D2BBD-3578-4872-8295-2052B2F7BAF1}|FAQ\\FAQ.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch06\\ch6lab\\faq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5D2BBD-3578-4872-8295-2052B2F7BAF1}|FAQ\\FAQ.csproj|solutionrelative:faq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5D2BBD-3578-4872-8295-2052B2F7BAF1}|FAQ\\FAQ.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch06\\ch6lab\\faq\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E5D2BBD-3578-4872-8295-2052B2F7BAF1}|FAQ\\FAQ.csproj|solutionrelative:faq\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5D2BBD-3578-4872-8295-2052B2F7BAF1}|FAQ\\FAQ.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch06\\ch6lab\\faq\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5D2BBD-3578-4872-8295-2052B2F7BAF1}|FAQ\\FAQ.csproj|solutionrelative:faq\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\FAQ\\Program.cs",
+              "RelativeDocumentMoniker": "FAQ\\Program.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\FAQ\\Program.cs",
+              "RelativeToolTip": "FAQ\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T17:21:39.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\FAQ\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FAQ\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\FAQ\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FAQ\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T16:43:34.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\FAQ\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FAQ\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\FAQ\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FAQ\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T16:39:48.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
