@@ -3,6 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.AppendTrailingSlash = true;
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -26,6 +32,36 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+
+//details routing
+app.MapControllerRoute(
+    name: "restaurant-details",
+    pattern: "{controller=Restaurants}/{action=Details}/{id}/{slug}/"
+    );
+
+//edit routing
+app.MapControllerRoute(
+    name: "restaurant-edit",
+    pattern: "{controller=Restaurants}/{action=Edit}/{id}/{slug}/",
+    defaults: new { controller = "Restaurants", action = "Edit" }
+    );
+
+//delete routing
+app.MapControllerRoute(
+    name: "restaurant-delete",
+    pattern: "{controller=Restaurants}/{action=Delete}/{id}/{slug}/",
+    defaults: new { controller = "Restaurants", action = "Delete" }
+    );
+
+//list routing
+app.MapControllerRoute(
+    name: "restaurants-list",
+    pattern: "restaurants/",
+    defaults: new { controller = "Restaurants", action = "Index" }
+);
+
+//default routing   
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
