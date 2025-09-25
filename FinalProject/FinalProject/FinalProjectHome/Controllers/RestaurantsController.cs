@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using FinalProjectHome.Models;
+using System.Text.RegularExpressions;
 
 namespace FinalProjectHome.Controllers
 {
@@ -26,7 +27,17 @@ namespace FinalProjectHome.Controllers
             ViewBag.Ratings = RatingItems;
         }
 
-        //GET restaurants
+        private static string Slugify(string? text)
+        {
+            if (string.IsNullOrWhiteSpace(text)) return "";
+            var s = text.Trim().ToLower();
+            s = System.Text.RegularExpressions.Regex.Replace(s, @"\s+", "-");
+            s = System.Text.RegularExpressions.Regex.Replace(s, @"[^a-z0-9\-]", "");
+            s = System.Text.RegularExpressions.Regex.Replace(s, @"-+", "-");
+            return s.Trim('-');
+        }
+
+        //GET restaurant list
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -37,9 +48,9 @@ namespace FinalProjectHome.Controllers
             return View(restaurants);
         }
 
-        //GEt restaurant details
+        //GEt restaurant details (/restaurants/details/{id}/{slug})
         [HttpGet]
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? id, string? slug)
         {
             if (id == null) return NotFound();
 
@@ -48,6 +59,12 @@ namespace FinalProjectHome.Controllers
                 .FirstOrDefaultAsync(r => r.RestaurantId == id);
 
             if (restaurant == null) return NotFound();
+
+            var expected = Slugify(restaurant.Name);
+            if (!string.Equals(slug, expected, StringComparison.Ordinal))
+            {
+                return RedirectToRoute("restaurant-details", new { id = restaurant.RestaurantId, slug = expected });
+            }
             return View(restaurant);
         }
 
@@ -77,12 +94,18 @@ namespace FinalProjectHome.Controllers
 
         //GET edit restaurant
         [HttpGet]
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? id, string? slug)
         {
             if (id == null) return NotFound();
 
             var restaurant = await _context.Restaurants.FindAsync(id);
             if (restaurant == null) return NotFound();
+
+            var expected = Slugify(restaurant.Name);
+            if (!string.Equals(slug, expected, StringComparison.Ordinal))
+            {
+                return RedirectToRoute("restaurant-edit", new { id = restaurant.RestaurantId, slug = expected });
+            }
 
             PopulateDropDowns();
             return View(restaurant);
@@ -120,13 +143,20 @@ namespace FinalProjectHome.Controllers
 
         //GET delete restaurant
         [HttpGet]
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id, string? slug)
         {
             if (id == null) return NotFound();
             var restaurant = await _context.Restaurants
                 .AsNoTracking()
                 .FirstOrDefaultAsync(r => r.RestaurantId == id);
             if (restaurant == null) return NotFound();
+
+            var expected = Slugify(restaurant.Name);
+            if (!string.Equals(slug, expected, StringComparison.Ordinal))
+            {
+                return RedirectToRoute("restaurant-delete", new { id = restaurant.RestaurantId, slug = expected });
+            }
+
             return View(restaurant);
         }
 
