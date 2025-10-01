@@ -1,0 +1,20 @@
+﻿@model IDictionary<string, string>
+@{
+		ViewData["Title"] = "Contact";
+
+}
+@section Header{
+	<h1>Contact</h1>
+}
+
+<table class="table table-stripped">
+	<tbody>
+		@foreach (var kv in Model)
+		{
+			<tr>
+				<th style="width:200px">@kv.Key</th>
+				<td>@kv.Value</td>
+			</tr>
+		}
+	</tbody>
+</table>

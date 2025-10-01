@@ -1,0 +1,25 @@
+﻿@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+
+	var currentController = (string?)ViewContext.RouteData.Values["controller"] ?? "";
+
+	bool tabHome = currentController == "Home";
+	bool tabTutorial = currentController == "Tutorial";
+}
+@section Header{
+	<h1>Help Page</h1>
+}
+
+<div class="mb-3">
+	<ul class="nav nav-tabs">
+		<li class="nav-item">
+			<a class="nav-link @(tabHome ? "active" : "")" asp-area="Help" asp-controller="Home" asp-action="Index">Home</a>
+		</li>
+
+		<li class="nav-item">
+			<a class="nav-link @(tabTutorial ? "active" : "")" asp-area="Help" asp-controller="Tutorial" asp-action="Index" asp-route-id="Page1">Tutorial</a>
+		</li>
+	</ul>
+</div>
+
+@RenderBody()
