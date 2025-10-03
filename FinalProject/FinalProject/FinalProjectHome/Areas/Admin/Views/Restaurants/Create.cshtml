@@ -2,10 +2,11 @@
 @{
 	ViewData["Title"] = "Create Restaurant";
 }
+@section Header{
+	<h1>Admin - Add Restaurant</h1>
+}
 
-<h1 class="m-3">Create Restaurant</h1>
-
-<form asp-action="Create" method="post" class="card card-body">
+<form asp-area="Admin" asp-controller="Restaurants" asp-action="Create" method="post" class="card card-body">
 
 	<div class="mb-3">
 		<label asp-for="Name" class="form-label"></label>
@@ -33,7 +34,7 @@
 
 	<div class="d-flex gap-2">
 		<button type="submit" class="btn btn-primary">Save</button>
-		<a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+		<a asp-area="" asp-controller="Restaurants" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
 	</div>
 </form>
 

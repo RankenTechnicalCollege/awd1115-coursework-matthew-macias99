@@ -1,53 +1,79 @@
-﻿<!DOCTYPE html>
+﻿@{
+	var area = (string?)ViewContext.RouteData.Values["area"];
+	var controller = (string?)ViewContext.RouteData.Values["controller"];
+	var action = (string?)ViewContext.RouteData.Values["action"];
+
+	bool isHome = area is null && controller == "Home" && action == "Index";
+	bool isRestaurantsPublic = area is null && controller == "Restaurants" && action == "Index";
+	bool isAdmin = area == "Admin";
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - FinalProjectHome</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - FinalProjectHome</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-brand" style="background:#ff6a00">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
-                    <img src="~/images/logo.svg" alt="Hungry O'Clock Logo" width="32" height="32" class="me-2" />
-                    <b>Hungry O'Clock</b>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-animation="#mainNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Restaurants" asp-action="Index">Restaurants</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Reservations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer>
-        <div class="container d-flex justify-content-between flex-wrap">
-            <span>2025 Hungry O'Clock</span>
-            <span>Reserve a table now. Eat later.</span>
-        </div>
-    </footer>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+<body>
+
+
+
+	<nav class="navbar navbar-expand-lg navbar-brand" style="background:#ff6a00">
+
+		<div class="container">
+			<a class="navbar-brand d-flex align-items-center @(isHome ? "active" : "")" asp-controller="Home" asp-action="Index" asp-area="">
+				<img src="~/images/logo.svg" alt="Hungry O'Clock Logo" width="32" height="32" class="me-2" />
+				<b>Hungry O'Clock</b>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-animation="#mainNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mainNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link @(isHome ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link @(isRestaurantsPublic ? "active" : "")" asp-area="" asp-controller="Restaurants" asp-action="Index">Restaurants</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#">Reservations</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link @(isAdmin ? "active" : "")" asp-area="Admin" asp-controller="Restaurants" asp-action="Index">Admin</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="container py-3">
+		@RenderSection("Header", required: true)
+	</header>
+
+
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	<footer>
+		<div class="container d-flex justify-content-between flex-wrap">
+			<span>2025 Hungry O'Clock</span>
+			<span>Reserve a table now. Eat later.</span>
+		</div>
+	</footer>
+
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	@RenderSection("Scripts", required: false)
 </body>
 </html>

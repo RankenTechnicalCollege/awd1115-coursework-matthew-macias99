@@ -1,0 +1,25 @@
+﻿@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Header{
+	@if (IsSectionDefined("Header"))
+	{
+		@RenderSection("Header", required: false)
+	}
+	else
+	{
+		<h1 class="mb-0">Admin</h1>
+		<p class="text-muted">Manager site</p>
+	}
+}
+
+<nav class="nav nav-pills mb-3">
+	<a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Restaurants" ? "active" : "")" asp-area="Admin" asp-controller="Restaurants" asp-action="Index">Restaurants</a>
+</nav>
+
+@RenderBody()
+
+@section Scripts{
+	@RenderSection("Scripts", required: false)
+}

@@ -3,24 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\views\\restaurants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\views\\restaurants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\views\\restaurants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\views\\restaurants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\areas\\admin\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\areas\\admin\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\restaurants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\restaurants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\models\\finalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\models\\finalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\restaurants\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\restaurants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\restaurants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,99 +86,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Index.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T20:19:00.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T20:05:07.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T19:51:30.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T19:51:12.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T19:50:56.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T19:32:25.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RestaurantsController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Controllers\\RestaurantsController.cs",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Controllers\\RestaurantsController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Controllers\\RestaurantsController.cs",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Controllers\\RestaurantsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:25:20.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Program.cs",
               "RelativeDocumentMoniker": "FinalProjectHome\\Program.cs",
               "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Program.cs",
               "RelativeToolTip": "FinalProjectHome\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAD4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T15:47:15.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Delete.cshtml",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Restaurants\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Delete.cshtml",
-              "RelativeToolTip": "FinalProjectHome\\Views\\Restaurants\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Delete.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-20T16:38:32.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Details.cshtml",
               "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Restaurants\\Details.cshtml",
               "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Details.cshtml",
               "RelativeToolTip": "FinalProjectHome\\Views\\Restaurants\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-20T16:33:56.69Z"
+              "WhenOpened": "2025-09-20T16:33:56.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Restaurants\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Edit.cshtml",
-              "RelativeToolTip": "FinalProjectHome\\Views\\Restaurants\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Edit.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-20T16:32:38.889Z"
+              "WhenOpened": "2025-09-20T16:32:38.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Create.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Areas\\Admin\\Views\\Restaurants\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T16:25:49.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Restaurants\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Create.cshtml",
-              "RelativeToolTip": "FinalProjectHome\\Views\\Restaurants\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-20T16:25:49.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Restaurants\\Index.cshtml",
               "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Restaurants\\Index.cshtml",
               "RelativeToolTip": "FinalProjectHome\\Views\\Restaurants\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-20T16:16:38.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "RestaurantsController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Controllers\\RestaurantsController.cs",
               "RelativeDocumentMoniker": "FinalProjectHome\\Controllers\\RestaurantsController.cs",
               "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Controllers\\RestaurantsController.cs",
               "RelativeToolTip": "FinalProjectHome\\Controllers\\RestaurantsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T15:57:42.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "FinalContext.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\FinalContext.cs",
               "RelativeDocumentMoniker": "FinalProjectHome\\Models\\FinalContext.cs",
@@ -162,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "RestaurantTag.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\RestaurantTag.cs",
               "RelativeDocumentMoniker": "FinalProjectHome\\Models\\RestaurantTag.cs",
@@ -174,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "FinalProjectHome\\Models\\Tag.cs",
@@ -186,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "MenuItem.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\MenuItem.cs",
               "RelativeDocumentMoniker": "FinalProjectHome\\Models\\MenuItem.cs",
@@ -198,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Restaurant.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\Restaurant.cs",
               "RelativeDocumentMoniker": "FinalProjectHome\\Models\\Restaurant.cs",
