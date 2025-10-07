@@ -1,0 +1,26 @@
+﻿@model TripsLog.ViewModels.TripDestinationViewModel
+
+<div class="container">
+	<form asp-action="AddPage1" method="post">
+		<div>
+			<label>Destination</label>
+			<input asp-for="Destination" class="form-control mb-3" />
+			<span asp-validation-for="Destination" class="text-danger"></span>
+		</div>
+
+		<div>
+			<label>Start Date</label>
+			<input asp-for="StartDate" class="form-controll mb-3" />
+			<span asp-validation-for="StartDate" class="text-danger"></span>
+		</div>
+
+		<div>
+			<label>End Date</label>
+			<input asp-for="EndDate" class="form-controll mb-3" />
+			<span asp-validation-for="EndDate" class="text-danger"></span>
+		</div>
+
+		<button type="submit" class="btn btn-primary mt-3">Next</button>
+		<a asp-action="Cancel" class="btn btn-secondary mt-3">Cancel</a>
+	</form>
+</div>

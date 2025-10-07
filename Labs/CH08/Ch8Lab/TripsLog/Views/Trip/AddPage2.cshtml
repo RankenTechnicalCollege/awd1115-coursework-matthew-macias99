@@ -1,0 +1,22 @@
+﻿@model TripsLog.ViewModels.TripAccommodationViewModel
+
+<form asp-action="AddPage2" method="post">
+	<div>
+		<label>Accommodation</label>
+		<input asp-for="Accommodation" class="form-control"/>
+		<span asp-validation-for="Accommodation" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label>Phone Number</label>
+		<input asp-for="AccommodationPhone" class="form-control" />
+	</div>
+
+	<div>
+		<label>Email</label>
+		<input asp-for="AccommodationEmail" class="form-control" />
+	</div>
+
+	<button type="submit" class="btn btn-primary mt-3">Next</button>
+	<a asp-action="Cancel" class="btn btn-primary mt-3">Cancel</a>
+</form>

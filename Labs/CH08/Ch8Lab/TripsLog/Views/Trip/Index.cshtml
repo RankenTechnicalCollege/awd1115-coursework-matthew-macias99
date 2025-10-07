@@ -1,0 +1,38 @@
+﻿@model IEnumerable<TripsLog.Models.Trip>
+
+	<a asp-action="AddPage1" class="btn btn-primary mt-3 mb-3">Add Trip</a>
+
+@if (TempData["Message"] != null)
+{
+	<p class="text-success">@TempData["Message"]</p>
+}
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Destination</th>
+			<th>Start Date</th>
+			<th>End Date</th>
+			<th>Accommodations</th>
+			<th>Activities</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var t in Model)
+		{
+			<tr>
+				<td>@t.Destination</td>
+				<td>@t.StartDate.ToShortDateString()</td>
+				<td>@t.EndDate.ToShortDateString()</td>
+				<td>
+					@t.Accommodation <br/>
+					@if (!string.IsNullOrEmpty(t.AccommodationPhone)) {<span>Phone: @t.AccommodationPhone<br/> </span>}
+					@if (!string.IsNullOrEmpty(t.AccommodationEmail)) {<span>Phone: @t.AccommodationEmail<br/> </span>}
+				</td>
+				<td>
+					@t.Activity1 <br /> @t.Activity2 <br /> @t.Activity3
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
