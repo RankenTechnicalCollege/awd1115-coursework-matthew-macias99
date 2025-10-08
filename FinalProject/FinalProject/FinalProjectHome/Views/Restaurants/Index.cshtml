@@ -15,6 +15,14 @@
 	<a class="btn btn-primary mb-3" asp-area="Admin" asp-controller="Restaurants" asp-action="Create">Create New Restaurant</a>
 </div>
 
+@if (TempData["Success"] is string msg && !string.IsNullOrWhiteSpace(msg))
+{
+	<div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+		@msg
+		<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+	</div>
+}
+
 @if (!Model.Any())
 {
 	<div class="alert alert-info">No restaurants yet. Click the <strong>Create Button</strong> to add one</div>

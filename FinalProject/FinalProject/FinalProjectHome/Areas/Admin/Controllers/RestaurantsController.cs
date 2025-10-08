@@ -61,6 +61,7 @@ namespace FinalProjectHome.Areas.Admin.Controllers
 
             _context.Add(restaurant);
             await _context.SaveChangesAsync();
+            TempData["Success"] = $"Restaurant {restaurant.Name} created successfully";
             return RedirectToAction(nameof(Index));
         }
 
@@ -98,6 +99,7 @@ namespace FinalProjectHome.Areas.Admin.Controllers
             {
                 _context.Update(restaurant);
                 await _context.SaveChangesAsync();
+                TempData["Success"] = $"Restaurant {restaurant.Name} updated successfully";
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -144,6 +146,7 @@ namespace FinalProjectHome.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
             }
 
+            TempData["Success"] = $"Restaurant {restaurant?.Name} deleted successfully";
             return RedirectToAction(nameof(Index));
         }
     }

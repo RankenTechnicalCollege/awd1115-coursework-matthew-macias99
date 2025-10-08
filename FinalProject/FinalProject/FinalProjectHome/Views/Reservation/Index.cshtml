@@ -1,0 +1,65 @@
+﻿@model IEnumerable<FinalProjectHome.Models.Reservation>
+
+@{
+	ViewData["Title"] = "Reservations";
+}
+
+@if (TempData["Success"] is string msg && !string.IsNullOrEmpty(msg))
+{
+	<div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+		@msg
+		<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+	</div>
+}
+
+<div class="d-flex justify-content-end mb-3">
+	<a asp-action="CreateStep1" class="btn btn-primary">Add Reservation</a>
+</div>
+
+@if (!Model.Any())
+{
+	<div class="text-center text-muted py-5">No reservations yet</div>
+}
+else
+{
+	<table class="table table-striped align-middle">
+		<thead class="table-dark">
+			<tr>
+				<th>Restaurant</th>
+				<th>Date</th>
+				<th>Time</th>
+				<th>Party Size</th>
+				<th>Contact</th>
+				<th>Accommodations</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var r in Model)
+			{
+				<tr>
+					<td>@r.Restaurant?.Name</td>
+					<td>@r.Date.ToShortDateString()</td>
+					<td>
+						@(DateTime.Today.Add(r.Time).ToString("hh:mm tt").Replace(" ", "").ToLower())
+					</td>
+					<td>@r.PartySize</td>
+					<td>
+						<div>@r.PhoneNumber</div>
+						<div>@r.Email</div>
+					</td>
+					<td>@(string.IsNullOrWhiteSpace(r.Notes) ? "-" : r.Notes)</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@section Header {
+	<div class="text-center my-3">
+		<h1 class="fw-bold">Reservations</h1>
+		@if (!string.IsNullOrWhiteSpace(ViewBag.SubHeader as string))
+		{
+			<p class="text-muted">@ViewBag.SubHeader</p>
+		}
+	</div>
+}

@@ -42,7 +42,9 @@
 					<li class="nav-item">
 						<a class="nav-link @(isRestaurantsPublic ? "active" : "")" asp-area="" asp-controller="Restaurants" asp-action="Index">Restaurants</a>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="#">Reservations</a></li>
+					<li class="nav-item">
+						<a class="nav-link" asp-controller="Reservation" asp-action="Index">Reservations</a>
+					</li>
 					<li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
 				</ul>

@@ -1,0 +1,33 @@
+﻿@model FinalProjectHome.ViewModels.ReservationStep2VM
+
+@{
+		ViewData["Title"] = "Create Reservation - Step 2";
+
+}
+
+<form asp-action="CreateStep2" method="post" class="needs-validation" novalidate>
+	<div class="mb-3">
+		<label asp-for="PartySize" class="form-label fw-semibold"></label>
+		<input asp-for="PartySize" class="form-control" />
+		<span asp-validation-for="PartySize" class="text-danger"></span>
+	</div>
+
+	<div class="d-flex justify-content-between">
+		<a asp-action="Cancel" class="btn btn-outline-secondary">Cancel</a>
+		<button class="btn btn-primary" type="submit">Next</button>
+	</div>
+</form>
+
+@section Header {
+	<div class="text-center my-3">
+		<h1 class="fw-bold">Reservations</h1>
+		@if (!string.IsNullOrWhiteSpace(ViewBag.SubHeader as string))
+		{
+			<p class="text-muted">@ViewBag.SubHeader</p>
+		}
+	</div>
+}
+
+@section Scripts{
+	<partial name="_ValidationScriptsPartial" />
+}

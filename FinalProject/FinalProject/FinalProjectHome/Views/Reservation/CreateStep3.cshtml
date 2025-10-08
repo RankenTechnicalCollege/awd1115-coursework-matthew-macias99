@@ -1,0 +1,44 @@
+﻿@model FinalProjectHome.ViewModels.ReservationStep3VM
+
+@{
+	ViewData["Title"] = "Create Reservation - Step 3";
+}
+
+<form asp-action="CreateStep3" method="post" class="needs-validation" novalidate>
+	<div class="row">
+		<div class="col-md-6 mb-3">
+			<label asp-for="PhoneNumber" class="form-label fw-semibold"></label>
+			<input asp-for="PhoneNumber" class="form-control"/>
+			<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+		</div>
+		<div class="col-md-6 mb-3">
+			<label asp-for="Email" class="form-label fw-semibold"></label>
+			<input asp-for="Email" class="form-control" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Notes" class="form-label fw-semibold">Accommodations (Optional)</label>
+		<textarea asp-for="Notes" class="form-control" rows="3"></textarea>
+	</div>
+
+	<div class="d-flex justify-content-between">
+		<a asp-action="Cancel" class="btn btn-outline-secondary">Cancel</a>
+		<button class="btn btn-success" type="submit">Save Reservation</button>
+	</div>
+</form>
+
+@section Header {
+	<div class="text-center my-3">
+		<h1 class="fw-bold">Reservations</h1>
+		@if (!string.IsNullOrWhiteSpace(ViewBag.SubHeader as string))
+		{
+			<p class="text-muted">@ViewBag.SubHeader</p>
+		}
+	</div>
+}
+
+@section Scripts{
+	<partial name="_ValidationScriptsPartial" />
+}

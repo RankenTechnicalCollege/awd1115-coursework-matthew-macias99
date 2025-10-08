@@ -12,6 +12,8 @@ namespace FinalProjectHome.Models
         public DbSet<Tag> Tags => Set<Tag>();
         public DbSet<RestaurantTag> RestaurantTags => Set<RestaurantTag>();
 
+        public DbSet<Reservation> Reservations => Set<Reservation>();
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<RestaurantTag>().HasKey(rt => new {rt.RestaurantId, rt.TagId });
