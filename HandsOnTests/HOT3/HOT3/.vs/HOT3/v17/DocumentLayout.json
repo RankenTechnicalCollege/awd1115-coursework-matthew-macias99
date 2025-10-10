@@ -1,0 +1,350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\viewmodels\\cartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\viewmodels\\cartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\models\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\models\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\models\\hot3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\hot3context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\handsontests\\hot3\\hot3\\hot3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FFFF7D-D158-448D-BACC-F9F25E43E200}|HOT3\\HOT3.csproj|solutionrelative:hot3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "HOT3\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-10T00:48:38.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "HOT3\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Controllers\\CartController.cs",
+              "RelativeToolTip": "HOT3\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:31:03.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartVM.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\ViewModels\\CartVM.cs",
+              "RelativeDocumentMoniker": "HOT3\\ViewModels\\CartVM.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\ViewModels\\CartVM.cs",
+              "RelativeToolTip": "HOT3\\ViewModels\\CartVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:27:31.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-10T00:21:09.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-10T00:18:38.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-10T00:11:53.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-10T00:02:16.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T23:58:34.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "HOT3\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "HOT3\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:47:47.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "HOT3\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T23:39:34.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HOT3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T23:29:57.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HOT3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HOT3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T23:23:27.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HOT3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HOT3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:20:01.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\SessionExtensions.cs",
+              "RelativeToolTip": "HOT3\\Models\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:17:06.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SlugHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\SlugHelper.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\SlugHelper.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\SlugHelper.cs",
+              "RelativeToolTip": "HOT3\\Models\\SlugHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:14:35.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HOT3Context.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\HOT3Context.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\HOT3Context.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\HOT3Context.cs",
+              "RelativeToolTip": "HOT3\\Models\\HOT3Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:39:02.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Order.cs",
+              "RelativeToolTip": "HOT3\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:35:18.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "HOT3\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Models\\Product.cs",
+              "RelativeToolTip": "HOT3\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:32:05.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\appsettings.json",
+              "RelativeDocumentMoniker": "HOT3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\appsettings.json",
+              "RelativeToolTip": "HOT3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T21:30:10.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Program.cs",
+              "RelativeDocumentMoniker": "HOT3\\Program.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\HandsOnTests\\HOT3\\HOT3\\HOT3\\Program.cs",
+              "RelativeToolTip": "HOT3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:25:29.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

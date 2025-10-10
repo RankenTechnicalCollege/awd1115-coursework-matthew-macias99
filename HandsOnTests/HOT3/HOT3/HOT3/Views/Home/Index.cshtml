@@ -1,0 +1,41 @@
+﻿@model IEnumerable<HOT3.Models.Product>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+	<h2 class="m-0">Products</h2>
+	<form method="get" class="d-flex">
+		<select name="category" class="form-select me-2">
+			<option value="all">All</option>
+			<option value="tops" selected="@(ViewBag.SelectedCategory=="tops")">Tops</option>
+			<option value="bottoms" selected="@(ViewBag.SelectedCategory == "bottoms")">Bottoms</option>
+			<option value="outerwear" selected="@(ViewBag.SelectedCategory == "outerwear")">Outerwear</option>
+			<option value="underwear" selected="@(ViewBag.SelectedCategory == "underwear")">Underwear</option>
+		</select>
+		<button class="btn btn-primary">Filter</button>
+	</form>
+</div>
+
+@if (TempData["Success"] is string msg)
+{
+	<div class="alert alert-success text-center">@msg</div>
+}
+
+<div class="row g-3">
+	@foreach (var p in Model)
+	{
+		<div class="col-md-4">
+			<div class="card h-100">
+				<img src="@Url.Content($"~/images/{p.ImageFileName}")" class="card-img-top" alt="@p.Name"/>
+				<div class="card-body">
+					<h5 class="card-title">@p.Name</h5>
+					<p class="card-text text-muted">@p.Brand - @p.Category</p>
+					<p class="fw-bold">$@p.Price</p>
+					<a asp-action="Details" asp-route-id="@p.ProductId" asp-route-slug="@p.Slug" class="btn btn-outline-secondary">View</a>
+					<form asp-controller="Cart" asp-action="Add" method="post" class="d-inline">
+						<input type="hidden" name="id" value="@p.ProductId"/>
+						<button class="btn btn-primary">Add To Cart</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	}
+</div>

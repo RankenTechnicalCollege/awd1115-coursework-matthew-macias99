@@ -1,0 +1,21 @@
+﻿@model HOT3.Models.Product
+
+<div class="card">
+	<div class="row g-0">
+		<div class="col-md-5">
+			<img src="~/images/@Model.ImageFileName" class="img-fluid rounded-start" alt="@Model.Name"/>
+		</div>
+		<div class="col-md-7">
+			<div class="card-body">
+				<h3 class="card-title">@Model.Name</h3>
+				<p class="text-muted">Brand: @Model.Brand</p>
+				<p class="text-muted">Category: @Model.Category</p>
+				<h4 class="fw-bold">$@Model.Price</h4>
+				<form asp-controller="Cart" asp-action="Add" method="post">
+					<input type="hidden" name="id" value="@Model.ProductId"/>
+					<button class="btn btn-primary">Add To Cart</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
