@@ -12,10 +12,10 @@
         <h1 class="display-4 fw-semibold">Hungry O'Clock</h1>
         <p class="lead mb-4">Reserve a table now. Eat later.</p>
 
-        <form class="search-pill input-group px-3 py-2 bg-white">
+        <form class="search-pill input-group px-3 py-2 bg-white" method="get" action="/Restaurants" role="search">
             <span class="input-group-text bg-white border-0"></span>
-            <input type="text" class="form-control border-0" placeholder="Search any restaurant or cuisine" />
-            <button class="btn btn-brand px-4"type="button">Search</button>
+            <input type="text" name="search" class="form-control border-0" placeholder="Search any restaurant or cuisine" />
+            <button class="btn btn-brand px-4" type="submit">Search</button>
         </form>
 
         <div class="mt-5">

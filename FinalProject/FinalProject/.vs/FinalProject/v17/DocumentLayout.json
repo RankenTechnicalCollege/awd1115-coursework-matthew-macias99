@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\reservation\\createstep1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\reservation\\createstep1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\reservation\\createstep2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\reservation\\createstep2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\reservation\\createstep3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\reservation\\createstep3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\viewmodels\\reservationstep3vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\viewmodels\\reservationstep3vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\viewmodels\\reservationstep2vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\viewmodels\\reservationstep2vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\viewmodels\\reservationstep1vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\viewmodels\\reservationstep1vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\finalproject\\finalprojecthome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F62D5236-036F-40E1-97AD-692C225DA92F}|FinalProjectHome\\FinalProjectHome.csproj|solutionrelative:finalprojecthome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,137 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateStep3.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\CreateStep3.cshtml",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Reservation\\CreateStep3.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\CreateStep3.cshtml",
-              "RelativeToolTip": "FinalProjectHome\\Views\\Reservation\\CreateStep3.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T19:32:24.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateStep2.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\CreateStep2.cshtml",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Reservation\\CreateStep2.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\CreateStep2.cshtml",
-              "RelativeToolTip": "FinalProjectHome\\Views\\Reservation\\CreateStep2.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T19:29:43.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateStep1.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\CreateStep1.cshtml",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Reservation\\CreateStep1.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\CreateStep1.cshtml",
-              "RelativeToolTip": "FinalProjectHome\\Views\\Reservation\\CreateStep1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T19:23:29.686Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Reservation\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Reservation\\Index.cshtml",
-              "RelativeToolTip": "FinalProjectHome\\Views\\Reservation\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FinalProjectHome\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T19:15:26.878Z",
+              "WhenOpened": "2025-10-23T18:27:40.643Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "FinalProjectHome\\Controllers\\ReservationController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:55:42.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReservationStep3VM.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\ViewModels\\ReservationStep3VM.cs",
-              "RelativeDocumentMoniker": "FinalProjectHome\\ViewModels\\ReservationStep3VM.cs",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\ViewModels\\ReservationStep3VM.cs",
-              "RelativeToolTip": "FinalProjectHome\\ViewModels\\ReservationStep3VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:53:35.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReservationStep2VM.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\ViewModels\\ReservationStep2VM.cs",
-              "RelativeDocumentMoniker": "FinalProjectHome\\ViewModels\\ReservationStep2VM.cs",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\ViewModels\\ReservationStep2VM.cs",
-              "RelativeToolTip": "FinalProjectHome\\ViewModels\\ReservationStep2VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T17:39:13.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReservationStep1VM.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\ViewModels\\ReservationStep1VM.cs",
-              "RelativeDocumentMoniker": "FinalProjectHome\\ViewModels\\ReservationStep1VM.cs",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\ViewModels\\ReservationStep1VM.cs",
-              "RelativeToolTip": "FinalProjectHome\\ViewModels\\ReservationStep1VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T17:37:15.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Restaurant.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\Restaurant.cs",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Models\\Restaurant.cs",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\Restaurant.cs",
-              "RelativeToolTip": "FinalProjectHome\\Models\\Restaurant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T17:34:16.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "FinalProjectHome\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\FinalProject\\FinalProjectHome\\Models\\Reservation.cs",
-              "RelativeToolTip": "FinalProjectHome\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T17:30:11.306Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

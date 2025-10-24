@@ -34,10 +34,32 @@ namespace FinalProjectHome.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? search, int pageNumber = 1, int pageSize = 5)
         {
-            var restaurants = await _context.Restaurants.AsNoTracking().OrderBy(r => r.Name).ToListAsync();
-            return View(restaurants);
+            var query = _context.Restaurants.AsNoTracking();
+
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                query = query.Where(r => r.Name.Contains(search) || r.Category.Contains(search));
+            }
+
+            query = query.OrderBy(r => r.Name);
+
+            var total = await query.CountAsync();
+            var items = await query.Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            var vm = new PagedResult<Restaurant>
+            {
+                Items = items,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalItems = total,
+                Search = search
+            };
+
+            return View(vm);
         }
 
         //GET create restaurant
