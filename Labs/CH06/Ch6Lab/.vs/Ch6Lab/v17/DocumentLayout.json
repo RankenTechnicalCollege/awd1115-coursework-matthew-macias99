@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "FAQ\\Program.cs",
               "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH06\\Ch6Lab\\FAQ\\Program.cs",
               "RelativeToolTip": "FAQ\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwDEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T17:21:39.557Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "FAQ\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-23T16:43:34.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T16:43:34.146Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,11 @@
               "RelativeToolTip": "FAQ\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T16:39:48.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T16:39:48.667Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

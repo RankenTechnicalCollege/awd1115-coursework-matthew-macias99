@@ -1,0 +1,55 @@
+﻿@CarInventory_HostAddress = https://localhost:7122
+
+GET {{CarInventory_HostAddress}}/cars
+
+###
+
+POST {{CarInventory_HostAddress}}/cars
+Content-Type: application/json
+{
+  "make": "2baru",
+  "model": "Outback",
+  "trim": "Limited",
+  "color": "Green",
+  "horsepower": 182,
+  "drivetrain": "AWD",
+  "price": 44000,
+  "isavailable": false,
+  "secret": "Sensitive info goes here"
+}
+
+###
+
+GET {{CarInventory_HostAddress}}/cars/2
+
+###
+
+DELETE {{CarInventory_HostAddress}}/cars/7
+
+###
+
+@id=3
+PUT {{CarInventory_HostAddress}}/cars/{{id}}
+Content-Type: application/json
+
+{
+  
+  "make": "Ford",
+  "model": "F-150",
+  "trim": "Base",
+  "color": "Silver",
+  "horsepower": 350,
+  "drivetrain": "4WD",
+  "price": 64000,
+  "isavailable": true
+}
+
+###
+
+GET {{CarInventory_HostAddress}}/cars/available
+
+###
+
+GET {{CarInventory_HostAddress}}/cars/available
+
+###
