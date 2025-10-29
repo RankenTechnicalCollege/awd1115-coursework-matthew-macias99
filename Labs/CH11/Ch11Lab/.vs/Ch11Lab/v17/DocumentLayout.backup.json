@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\views\\sales\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\views\\sales\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\viewmodels\\homeindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\viewmodels\\homeindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch11\\ch11lab\\quarterlysalesapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B231B27-9F44-4684-AFFE-F08D589D1AD5}|QuarterlySalesApp\\QuarterlySalesApp.csproj|solutionrelative:quarterlysalesapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QuarterlySalesApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T20:14:41.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Program.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Program.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:08:23.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Sales\\Add.cshtml",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Views\\Sales\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Sales\\Add.cshtml",
+              "RelativeToolTip": "QuarterlySalesApp\\Views\\Sales\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T19:49:21.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Employee\\Add.cshtml",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Views\\Employee\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Employee\\Add.cshtml",
+              "RelativeToolTip": "QuarterlySalesApp\\Views\\Employee\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T19:42:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QuarterlySalesApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T19:34:02.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:24:57.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:10:10.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:38:05.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:19:54.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\ViewModels\\HomeIndexVM.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\ViewModels\\HomeIndexVM.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\ViewModels\\HomeIndexVM.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\ViewModels\\HomeIndexVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:17:01.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Models\\Sale.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:12:35.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "QuarterlySalesApp\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH11\\Ch11Lab\\QuarterlySalesApp\\Models\\Employee.cs",
+              "RelativeToolTip": "QuarterlySalesApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:43:52.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

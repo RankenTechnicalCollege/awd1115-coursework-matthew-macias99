@@ -1,0 +1,41 @@
+﻿@model QuarterlySalesApp.Models.Employee
+
+<h4>Add Employee</h4>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Add" method="post" class="row gy-3">
+	<div class="col-md-6">
+		<label asp-for="FirstName" class="form-label">First Name</label>
+		<input asp-for="FirstName" class="form-control"/>
+		<span asp-validation-for="FirstName" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-6">
+		<label asp-for="LastName" class="form-label">Last Name</label>
+		<input asp-for="LastName" class="form-control" />
+		<span asp-validation-for="LastName" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-6">
+		<label asp-for="DOB" class="form-label">Birth Date</label>
+		<input asp-for="DOB" class="form-control" />
+		<span asp-validation-for="DOB" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-6">
+		<label asp-for="DateOfHire" class="form-label">Hire Date</label>
+		<input asp-for="DateOfHire" class="form-control" />
+		<span asp-validation-for="DateOfHire" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-6">
+		<label class="form-label">Manager</label>
+		<select asp-for="ManagerId" class="form-select" asp-items="(IEnumerable<SelectListItem>)ViewBag.Managers"></select>
+		<span asp-validation-for="ManagerId" class="text-danger"></span>
+	</div>
+
+	<div class="col-12">
+		<button class="btn btn-primary">Add</button>
+		<a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+	</div>
+</form>

@@ -1,0 +1,35 @@
+﻿@model QuarterlySalesApp.Models.Sale
+
+<h4>Add Sales</h4>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Add" method="post" class="row gy-3">
+	<div class="col-md-3">
+		<label asp-for="Quarter" class="form-label"></label>
+		<input asp-for="Quarter" class="form-control"/>
+		<span asp-validation-for="Quarter" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-3">
+		<label asp-for="Year" class="form-label"></label>
+		<input asp-for="Year" class="form-control" />
+		<span asp-validation-for="Year" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-6">
+		<label asp-for="Amount" class="form-label"></label>
+		<input asp-for="Amount" class="form-control" />
+		<span asp-validation-for="Amount" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-6">
+		<label class="form-label">Employee</label>
+		<select asp-for="EmployeeId" class="form-select" asp-items="(IEnumerable<SelectListItem>)ViewBag.Employees"></select>
+		<span asp-validation-for="EmployeeId" class="text-danger"></span>
+	</div>
+
+	<div class="col-12">
+		<button class="btn btn-primary">Add</button>
+		<a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+	</div>
+</form>
