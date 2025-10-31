@@ -1,0 +1,27 @@
+﻿@model List<AppointmentsApp.Models.Appointment>
+
+<h3>Appointments</h3>
+
+<p>
+	<a asp-action="Add" class="btn btn-primary">Add Apointment</a>
+</p>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Start</th>
+			<th>Customer</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var a in Model)
+		{
+			<tr>
+				<td>@a.AppointmentId</td>
+				<td>@a.Start.ToString("g")</td>
+				<td>@a.Customer?.Username</td>
+			</tr>
+		}
+	</tbody>
+</table>

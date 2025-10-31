@@ -1,0 +1,28 @@
+﻿@model List<AppointmentsApp.Models.Appointment>
+
+<h3>Admin - Appointments</h3>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Start</th>
+			<th>Customer</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var a in Model)
+		{
+			<tr>
+				<td>@a.AppointmentId</td>
+				<td>@a.Start.ToString("g")</td>
+				<td>@a.Customer?.Username</td>
+				<td class="text-nowrap">
+					<a class="btn btn-primary" asp-area="Admin" asp-controller="Appointments" asp-action="Edit" asp-route-id="@a.AppointmentId">Edit</a>
+					<a class="btn btn-danger" asp-area="Admin" asp-controller="Appointments" asp-action="Delete" asp-route-id="@a.AppointmentId">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

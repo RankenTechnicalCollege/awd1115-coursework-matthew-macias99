@@ -1,0 +1,27 @@
+﻿@model List<AppointmentsApp.Models.Customer>
+
+<h3>Customers</h3>
+
+<p>
+	<a asp-action="Add" class="btn btn-primary">Add Customer</a>
+</p>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Username</th>
+			<th>Phone Number</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var c in Model)
+		{
+			<tr>
+				<td>@c.CustomerId</td>
+				<td>@c.Username</td>
+				<td>@c.Phone</td>
+			</tr>
+		}
+	</tbody>
+</table>

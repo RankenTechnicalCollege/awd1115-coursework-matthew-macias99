@@ -1,0 +1,27 @@
+﻿@model AppointmentsApp.Models.Appointment
+
+<h4>Add Appointment</h4>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Add" method="post" class="row gy-3">
+	<div class="col-md-6">
+		<label asp-for="Start" class="form-label">Start Time</label>
+		<input asp-for="Start" class="form-control" type="datetime-local"/>
+		<span asp-validation-for="Start" class="text-danger"></span>
+	</div>
+
+	<div class="col-md-6">
+		<label class="form-label">Customer</label>
+		<select asp-for="CustomerId" class="form-select" asp-items="(IEnumerable<SelectListItem>)ViewBag.Customers"></select>
+		<span asp-validation-for="CustomerId" class="text-danger"></span>
+	</div>
+
+	<div class="col-12">
+		<button class="btn btn-primary">Add</button>
+		<a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+	</div>
+</form>
+
+@section Scripts{
+	<partial name="_ValidationScriptsPartial"/>
+}
