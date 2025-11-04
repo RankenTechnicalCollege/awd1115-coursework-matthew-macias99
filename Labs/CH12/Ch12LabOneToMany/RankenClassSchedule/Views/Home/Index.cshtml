@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Class>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Class Schedule</h1>
+    @foreach(Day d in ViewBag.Days)
+    {
+        string btnCss = (ViewBag.id == d.DayId) ? "btn btn-dark" : "btn btn-outline-dark";
+        <a asp-action="Index" asp-route-id="@d.DayId" class="@btnCss me-1 mb-2">@d.Name</a>
+    }
+</div>
+
+<a asp-action="Add" asp-controller="Class" class="btn btn-primary">Add Class</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Number</th>
+            <th>Teacher</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Class c in Model)
+        {
+            <tr>
+                <td>@c.Title</td>
+                <td>@c.Number</td>
+                <td>@c.Teacher.FullName</td>
+                <td>@c.Day.Name</td>
+                <td>@c.MilitaryTime</td>
+                <td>
+                    <a asp-action="Edit" asp-controller="Class" asp-route-id="@c.ClassId" class="btn btn-outline-dark">Edit</a>
+                    <a asp-action="Delete" asp-controller="Class" asp-route-id="@c.ClassId" class="btn btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
