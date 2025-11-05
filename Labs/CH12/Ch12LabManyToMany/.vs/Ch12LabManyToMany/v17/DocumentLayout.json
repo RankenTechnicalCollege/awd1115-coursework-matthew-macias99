@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12LabManyToMany\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D725B7A-F90A-4E84-9E5D-DB32326CA045}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12labmanytomany\\manytomanyef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D725B7A-F90A-4E84-9E5D-DB32326CA045}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D725B7A-F90A-4E84-9E5D-DB32326CA045}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12labmanytomany\\manytomanyef\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D725B7A-F90A-4E84-9E5D-DB32326CA045}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D725B7A-F90A-4E84-9E5D-DB32326CA045}|ManyToManyEF\\ManyToManyEF.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12labmanytomany\\manytomanyef\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D725B7A-F90A-4E84-9E5D-DB32326CA045}|ManyToManyEF\\ManyToManyEF.csproj|solutionrelative:manytomanyef\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12LabManyToMany\\ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12LabManyToMany\\ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T20:03:54.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12LabManyToMany\\ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12LabManyToMany\\ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "RelativeToolTip": "ManyToManyEF\\Views\\Courses\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T20:01:18.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12LabManyToMany\\ManyToManyEF\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "ManyToManyEF\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12LabManyToMany\\ManyToManyEF\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "ManyToManyEF\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:58:38.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
