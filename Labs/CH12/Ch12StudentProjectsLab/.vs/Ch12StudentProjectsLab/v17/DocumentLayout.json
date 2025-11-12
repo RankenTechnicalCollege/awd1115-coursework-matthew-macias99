@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12studentprojectslab\\triplog2\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12studentprojectslab\\triplog2\\views\\trip\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\trip\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12studentprojectslab\\triplog2\\views\\trip\\addactivities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\trip\\addactivities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12studentprojectslab\\triplog2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12studentprojectslab\\triplog2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch12\\ch12studentprojectslab\\triplog2\\models\\domainmodels\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5238B0E0-7CA7-4C7B-95A6-FBD022234B09}|TripLog2\\TripLog2.csproj|solutionrelative:triplog2\\models\\domainmodels\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T22:20:39.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddActivities.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Trip\\AddActivities.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Trip\\AddActivities.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Trip\\AddActivities.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Trip\\AddActivities.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T21:24:35.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Trip\\Add.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Trip\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Trip\\Add.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Trip\\Add.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T21:18:49.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TripController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Controllers\\TripController.cs",
+              "RelativeDocumentMoniker": "TripLog2\\Controllers\\TripController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Controllers\\TripController.cs",
+              "RelativeToolTip": "TripLog2\\Controllers\\TripController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwH0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T20:00:05.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Models\\DomainModels\\Trip.cs",
+              "RelativeDocumentMoniker": "TripLog2\\Models\\DomainModels\\Trip.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Models\\DomainModels\\Trip.cs",
+              "RelativeToolTip": "TripLog2\\Models\\DomainModels\\Trip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T21:06:24.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH12\\Ch12StudentProjectsLab\\TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TripLog2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T19:35:16.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

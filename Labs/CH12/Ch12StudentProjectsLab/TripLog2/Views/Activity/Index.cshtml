@@ -1,0 +1,31 @@
+﻿@using TripLog2.Models.DomainModels;
+@model IEnumerable<Activity>
+@{
+	ViewBag.Title = "Manage Activities";
+}
+<h1>Manage Activites</h1>
+<div class="m-2">
+	<a asp-action="Add" class="btn btn-secondary">Add Activity</a>
+</div>
+
+<form asp-action="Delete" method="post">
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (Activity a in Model)
+			{
+				<tr>
+					<td>@a.Name</td>
+					<td>
+						<button type="submit" name="id" value="@a.ActivityId" class="btn btn-danger">Delete</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</form>

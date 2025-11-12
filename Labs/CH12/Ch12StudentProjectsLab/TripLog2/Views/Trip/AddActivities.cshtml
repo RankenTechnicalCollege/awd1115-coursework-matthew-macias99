@@ -1,0 +1,28 @@
+﻿@model TripLog2.Controllers.TripController.AddActivitiesCarrier
+@{
+	ViewBag.Title = "Add Things To Do";
+}
+
+<h2>Add Things To Do in @ViewBag.DestinationName</h2>
+<p class="text-muted">Hold CTRL to select multiple activities</p>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="AddActivities" method="post">
+	<input type="hidden" asp-for="DestinationId"/>
+	<input type="hidden" asp-for="AccomodationId"/>
+	<input type="hidden" asp-for="StartDate" />
+	<input type="hidden" asp-for="EndDate" />
+
+	<div class="mb-3">
+		<select name="selectedActivityIds" asp-items="ViewBag.Activities" class="form-select" multiple size="12"></select>
+	</div>
+
+	<div class="d-flex gap-2">
+		<a asp-action="Add" class="btn btn-outline-dark">Back</a>
+		<button type="submit" class="btn btn-success">Save Trip</button>
+		<a asp-asp-controller="Home" asp-action="Index" class="btn btn-dark">Cancel</a>
+	</div>
+</form>
+
+

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Accomodation>
+@{
+	ViewBag.Title = "Manage Accomodations";
+}
+<h2>Manage Accomodations</h2>
+<div class="m-2">
+	<a asp-action="Add" class="btn btn-secondary">Add Accomodation</a>
+</div>
+
+<form asp-action="Delete" method="post">
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Phone</th>
+				<th>Email</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (Accomodation acc in Model)
+			{
+				<tr>
+					<td>@acc.Name</td>
+					<td>@acc.Phone</td>
+					<td>@acc.Email</td>
+					<td>
+						<button type="submit" name="id" value="@acc.AccomodationId" class="btn btn-danger">Delete</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</form>
