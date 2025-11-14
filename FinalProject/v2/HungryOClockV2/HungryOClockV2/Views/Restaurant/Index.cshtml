@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Restaurant>
+@{
+	ViewBag.Title = "Manage Restaurants";
+}
+
+<h2>Manage Restaurants</h2>
+
+@if(TempData["message"] != null)
+{
+	<div class="alert alert-success">@TempData["message"]</div>
+}
+
+<p>
+	<a asp-action="Create" class="btn btn-primary">Add Restaurant</a>
+</p>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Price Level</th>
+			<th>Category</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var r in Model)
+		{
+			<tr>
+				<td>@r.Name</td>
+				<td>@r.PriceLevel</td>
+				<td>
+					@{
+						var cats = r.RestaurantCategories?.Select(rc => rc.Category.Name).Where(n => !string.IsNullOrEmpty(n)) ?? Enumerable.Empty<string>();
+					}
+					@string.Join(", ", cats)
+				</td>
+				<td>
+					<a asp-action="Details" asp-route-id="@r.RestaurantId" class="btn btn-outline-primary">Details</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

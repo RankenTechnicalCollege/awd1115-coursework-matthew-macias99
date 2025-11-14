@@ -1,0 +1,33 @@
+﻿@model Restaurant
+@{
+	ViewBag.Title = "Restaurant Details";
+}
+
+<h2>@Model.Name</h2>
+
+<p><strong>Price Level: </strong> @Model.PriceLevel</p>
+
+<p>
+	<strong>Category</strong>
+	@{
+		var cats = Model.RestaurantCategories
+			.Select(rc => rc.Category?.Name)
+			.Where(n => !string.IsNullOrEmpty(n));
+	}
+	@string.Join(", ", cats)
+</p>
+
+<hr/>
+
+<h4>Menu Items</h4>
+<p><em>Coming Soon</em></p>
+
+<h4>Reviews</h4>
+<p><em>Coming Soon</em></p>
+
+<h4>Reservations</h4>
+<p><em>Coming Soon</em></p>
+
+<p>
+	<a asp-action="Index" class="btn btn-secondary">Back To List</a>
+</p>

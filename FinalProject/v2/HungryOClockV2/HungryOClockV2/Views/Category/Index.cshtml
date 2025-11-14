@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Category>
+@{
+	ViewBag.Title = "Manage Categories";
+}
+
+<h2>Manage Categories</h2>
+
+@if (TempData["message"] != null)
+{
+	<div class="alert alert-success">@TempData["message"]</div>
+}
+
+<p>
+	<a asp-action="Create" class="btn btn-primary">Add Category</a>
+</p>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Name</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var c in Model)
+		{
+			<tr>
+				<td>@c.Name</td>
+			</tr>
+		}
+	</tbody>
+</table>
