@@ -1,0 +1,39 @@
+﻿@model Review
+@{
+	ViewBag.Title = "Add Review";
+}
+
+<h2>Add Review for @ViewBag.RestaurantName</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Create" method="post">
+	<input type="hidden" asp-for="RestaurantId" />
+
+	<div class="mb-3">
+		<label asp-for="Title" class="form-label">Review Title</label>
+		<input asp-for="Title" class="form-control" />
+		<span asp-validation-for="Title" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Rating" class="form-label">Rating (1-4)</label>
+		<select asp-for="Rating" class="form-select">
+			<option value="">Select Rating</option>
+			<option value="1"> 1 - Bad</option>
+			<option value="2"> 2 - Ok</option>
+			<option value="3"> 3 - Good</option>
+			<option value="4"> 4 - Fantastic</option>
+		</select>
+		<span asp-validation-for="Title" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Content" class="form-label">Give a brief description</label>
+		<textarea asp-for="Content" class="form-control"></textarea>
+		<span asp-validation-for="Content" class="text-danger"></span>
+	</div>
+
+	<button type="submit" class="btn btn-success">Save Review</button>
+	<a asp-controller="Restaurant" asp-action="Details" asp-route-id="@Model.RestaurantId" class="btn btn-outline-secondary">Cancel</a>
+</form>

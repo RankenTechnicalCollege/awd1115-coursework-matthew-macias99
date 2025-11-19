@@ -1,0 +1,41 @@
+﻿@model Reservation
+@{
+	ViewBag.Title = "Edit Reservation";
+}
+
+<h2>Edit your reservation at @ViewBag.RestaurantName</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Edit" method="post">
+	<input type="hidden" asp-for="ReservationId" />
+	<input type="hidden" asp-for="RestaurantId" />
+
+	<div class="mb-3">
+		<label asp-for="ReservationDateTime" class="form-label">Date and Time</label>
+		<input asp-for="ReservationDateTime" type="datetime-local" class="form-control" />
+		<span asp-validation-for="ReservationDateTime" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="ContactPhone" class="form-label">Phone Number</label>
+		<input asp-for="ContactPhone" class="form-control" />
+		<span asp-validation-for="ContactPhone" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="ContactEmail" class="form-label">Email</label>
+		<input asp-for="ContactEmail" class="form-control" />
+		<span asp-validation-for="ContactEmail" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Accomodations" class="form-label"></label>
+		<textarea asp-for="Accomodations" rows="3" class="form-control"></textarea>
+		<span asp-validation-for="Accomodations" class="text-danger"></span>
+	</div>
+
+	<button type="submit" class="btn btn-success">Save</button>
+	<a asp-controller="Restaurant" asp-action="Details" asp-route-id="@Model.RestaurantId" class="btn btn-outline-secondary">Cancel</a>
+</form>
+

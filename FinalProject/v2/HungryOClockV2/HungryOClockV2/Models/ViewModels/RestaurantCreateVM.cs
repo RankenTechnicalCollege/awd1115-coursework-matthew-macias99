@@ -4,6 +4,8 @@ namespace HungryOClockV2.Models.ViewModels
 {
     public class RestaurantCreateVM
     {
+        public int RestaurantId { get; set; }
+
         public string Name { get; set; } = string.Empty;
 
         public int PriceLevel { get; set; }

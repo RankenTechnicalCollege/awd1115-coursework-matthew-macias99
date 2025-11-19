@@ -1,0 +1,38 @@
+﻿@model RestaurantCreateVM
+@{
+	ViewBag.Title = "Edit Restaurant";
+}
+
+<h2>Edit Restaurant</h2>
+
+<div asp-validation-summary="All" cite="text-danger"></div>
+
+<form asp-action="Edit" method="post">
+	<input type="hidden" asp-for="RestaurantId"/>
+
+	<div class="mb-3">
+		<label asp-for="Name" class="form-label"></label>
+		<input asp-for="Name" class="form-control"/>
+		<span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="PriceLevel" class="form-label">Price Level (1-4)</label>
+		<select asp-for="PriceLevel" class="form-select">
+			<option value="">Select Price Level</option>
+			<option value="1">$</option>
+			<option value="2">$$</option>
+			<option value="3">$$$</option>
+			<option value="4">$$$$</option>
+		</select>
+		<span asp-validation-for="PriceLevel" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label class="form-label">Categories (hold CTRL to select multiple)</label>
+		<select asp-for="SelectedCategoryIds" asp-items="Model.Categories" class="form-select" multiple size="5"></select>
+	</div>
+
+	<button type="submit" class="btn btn-success">Save Changes</button>
+	<a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+</form>

@@ -36,6 +36,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/MenuItem/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/MenuItem/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Reservation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Reservation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Reservation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Restaurant/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,8 +64,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Restaurant/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Restaurant/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Review/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Review/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Matthew/Documents/GitHub/awd1115-coursework-matthew-macias99/FinalProject/v2/HungryOClockV2/HungryOClockV2/Views/Shared/_LoginPartial.cshtml]

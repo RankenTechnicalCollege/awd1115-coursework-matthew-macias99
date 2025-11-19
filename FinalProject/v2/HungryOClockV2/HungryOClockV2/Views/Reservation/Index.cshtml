@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Reservation>
+@{
+	ViewBag.Title = "My Reservations";
+}
+
+<h2>My Reservations</h2>
+
+@if (TempData["message"] != null)
+{
+	<div class="alert alert-success">@TempData["message"]</div>
+}
+
+@if (!Model.Any())
+{
+	<p><em>You have no reservations</em></p>
+}
+else
+{
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Restaurant</th>
+				<th>Date &amp; Time</th>
+				<th>Contact</th>
+				<th>Accommodations</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var r in Model)
+			{
+				<tr>
+					<td>@r.Restaurant?.Name</td>
+					<td>@r.ReservationDateTime.ToString("g")</td>
+					<td>@r.ContactPhone<br />@r.ContactEmail</td>
+					<td>@r.Accomodations</td>
+					<td>
+						<a asp-action="Edit" asp-route-id="@r.ReservationId" class="btn btn-outline-secondary">Edit</a>
+						<form asp-action="Delete" asp-route-id="@r.ReservationId" method="post" class="d-inline">
+							@Html.AntiForgeryToken()
+							<button type="submit" class="btn btn-danger" onclick="return confirm('Cancel this reservation?);">Cancel</button>
+						</form>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
