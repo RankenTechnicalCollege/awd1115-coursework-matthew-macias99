@@ -117,6 +117,12 @@ namespace HungryOClockV2.Controllers
                 return NotFound();
             }
 
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (reservation.UserId != currentUserId)
+            {
+                return Forbid();
+            }
+
             ViewBag.RestaurantName = reservation.Restaurant?.Name ?? "";
             return View(reservation);
         }
@@ -157,6 +163,12 @@ namespace HungryOClockV2.Controllers
                 return NotFound();
             }
 
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (reservation.UserId != currentUserId)
+            {
+                return Forbid();
+            }
+
             existing.ReservationDateTime = reservation.ReservationDateTime;
             existing.ContactPhone = reservation.ContactPhone;
             existing.ContactEmail = reservation.ContactEmail;
@@ -186,6 +198,12 @@ namespace HungryOClockV2.Controllers
             {
                 TempData["message"] = "Reservation not found";
                 return RedirectToAction(nameof(Index));
+            }
+
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (reservation.UserId != currentUserId)
+            {
+                return Forbid();
             }
 
             _context.Reservations.Remove(reservation);

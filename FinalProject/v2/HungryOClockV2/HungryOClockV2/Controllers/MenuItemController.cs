@@ -2,16 +2,23 @@
 using HungryOClockV2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace HungryOClockV2.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class MenuItemController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public MenuItemController(ApplicationDbContext context)
+        public MenuItemController(ApplicationDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
 
         //get menu item create
@@ -38,7 +45,7 @@ namespace HungryOClockV2.Controllers
         //post menu item create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(MenuItem menuItem)
+        public async Task<IActionResult> Create(MenuItem menuItem, IFormFile? imageFile)
         {
             if (string.IsNullOrWhiteSpace(menuItem.Name))
             {
@@ -55,6 +62,12 @@ namespace HungryOClockV2.Controllers
                 var restaurant = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == menuItem.RestaurantId);
                 ViewBag.RestaurantName = restaurant?.Name ?? "";
                 return View(menuItem);
+            }
+
+            var imageUrl = await SaveImageAsync(imageFile);
+            if (!string.IsNullOrEmpty(imageUrl))
+            {
+                menuItem.ImageUrl = imageUrl;
             }
 
             _context.MenuItems.Add(menuItem);
@@ -82,7 +95,7 @@ namespace HungryOClockV2.Controllers
         //post edit menu item
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(MenuItem menuItem)
+        public async Task<IActionResult> Edit(MenuItem menuItem, IFormFile? imageFile)
         {
             if (string.IsNullOrWhiteSpace(menuItem.Name))
             {
@@ -111,7 +124,16 @@ namespace HungryOClockV2.Controllers
             existing.Name = menuItem.Name;
             existing.Price = menuItem.Price;
             existing.Description = menuItem.Description;
-            existing.ImageUrl = menuItem.ImageUrl;
+            
+            var imageUrl = await SaveImageAsync(imageFile);
+            if (!string.IsNullOrEmpty(imageUrl))
+            {
+                existing.ImageUrl = imageUrl;
+            }
+            else
+            {
+                existing.ImageUrl = menuItem.ImageUrl;
+            }
 
             await _context.SaveChangesAsync();
             TempData["message"] = "Menu item updated!";
@@ -137,6 +159,27 @@ namespace HungryOClockV2.Controllers
             await _context.SaveChangesAsync();
             TempData["message"] = "Menu item deleted";
             return RedirectToAction("Details", "Restaurant", new {id = restaurantId});
+        }
+
+        //helper for image uploading
+        private async Task<string?> SaveImageAsync(IFormFile? imageFile)
+        {
+            if (imageFile == null || imageFile.Length == 0)
+            {
+                return null;
+            }
+
+            var uploadsFolder = Path.Combine(_env.WebRootPath, "images", "menu");
+            Directory.CreateDirectory(uploadsFolder);
+
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+            var filePath = Path.Combine(uploadsFolder, fileName);
+            
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await imageFile.CopyToAsync(stream);
+            }
+            return "/images/menu/" + fileName;
         }
        
     }

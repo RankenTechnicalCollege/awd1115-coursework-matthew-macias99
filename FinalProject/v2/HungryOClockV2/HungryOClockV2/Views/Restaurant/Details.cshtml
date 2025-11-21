@@ -1,73 +1,110 @@
 ﻿@model Restaurant
+@using System.Security.Claims
 @{
 	ViewBag.Title = "Restaurant Details";
+
+	var isAuthenticated = User.Identity?.IsAuthenticated ?? true;
+	var isAdmin = User.IsInRole("Admin");
+	var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+	var cats = Model.RestaurantCategories
+		.Select(rc => rc.Category?.Name)
+		.Where(n => !string.IsNullOrEmpty(n));
+
+	var catText = string.Join(", ", cats);
+
+	string ratingText = Model.AverageRating.HasValue ? $"{Model.AverageRating.Value:F1} / 4" : "No rating yet";
+
+	string priceText = new string('$', Model.PriceLevel);
 }
 
-<h2>@Model.Name</h2>
-
-<p><strong>Price Level: </strong> @Model.PriceLevel</p>
-
-<p>
-	<strong>Average Rating:</strong>
-	@(Model.AverageRating.HasValue ? $"{Model.AverageRating.Value:F1} / 4" : "No ratings yet")
-</p>
-
-<p>
-	<strong>Category: </strong>
-	@{
-		var cats = Model.RestaurantCategories
-			.Select(rc => rc.Category?.Name)
-			.Where(n => !string.IsNullOrEmpty(n));
-	}
-	@string.Join(", ", cats)
-</p>
-
-<p>
-	<a asp-controller="Reservation" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Reserve a Table</a>
-	<a asp-controller="Reservation" asp-action="Index" class="btn btn-info">My Reservations</a>
-</p>
+<h2 class="text-center mt-4">@Model.Name</h2>
 
 @if(TempData["message"] != null)
 {
 	<div class="alert alert-success">@TempData["message"]</div>
 }
 
+<div class="row mb-4">
+	<div class="col-md-8">
+		<p class="mb-1">
+			<strong>Category: </strong> @(string.IsNullOrEmpty(catText) ? "None" : catText)
+		</p>
+		<p class="mb-1">
+			<strong>Price Level: </strong> @priceText
+		</p>
+		<p class="mb-1">
+			<strong>Average Rating: </strong> @ratingText
+		</p>
+	</div>
+	<div class="col-md-4 text-md-end mt-3 mt-md-0">
+		@if (isAuthenticated)
+		{
+			<a asp-controller="Reservation" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Reserve a Table</a>
+			<a asp-controller="Reservation" asp-action="Index" class="btn btn-info">My Reservations</a>
+		}
+	</div>
+</div>
+
+@if (isAdmin)
+{
+	<div class="mb-4">
+		<a asp-action="Edit" asp-route-id="@Model.RestaurantId" class="btn btn-outline-secondary">Edit Restaurant</a>
+		<form asp-action="Delete" asp-route-id="@Model.RestaurantId" method="post" class="d-inline">
+			@Html.AntiForgeryToken()
+			<button type="submit" class="btn btn-danger" onclick="return confirm('Delete this restaurant? this will remove all data with it')">Delete Restaurant</button>
+		</form>
+	</div>
+}
+
 <hr/>
 
-<h4>Menu Items</h4>
-<p>
-	<a asp-controller="MenuItem" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Add Menu Items</a>
-</p>
+<h4 class="text-center">Menu Items</h4>
+@if (isAdmin)
+{
+	<p>
+		<a asp-controller="MenuItem" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Add Menu Items</a>
+	</p>
+}
+
 
 @if(Model.MenuItems != null && Model.MenuItems.Any())
 {
-	<table class="table table-striped">
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Price</th>
-				<th>Description</th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach (var item in Model.MenuItems.OrderBy(mi => mi.Name))
-			{
-				<tr>
-					<td>@item.Name</td>
-					<td>@item.Price.ToString("C")</td>
-					<td>@item.Description</td>
-					<td>
-						<a asp-controller="MenuItem" asp-action="Edit" asp-route-id="@item.MenuItemId" class="btn btn-outline-secondary">Edit</a>
-						<form asp-controller="MenuItem" asp-action="Delete" asp-route-id="@item.MenuItemId" method="post" class="d-inline">
-							@Html.AntiForgeryToken()
-							<button type="submit" class="btn btn-danger" onclick="return confirm('Delete this menu item?');">Delete</button>
-						</form>
-					</td>
-				</tr>
-			}
-		</tbody>
-	</table>
+	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-4">
+		@foreach(var item in Model.MenuItems.OrderBy(mi => mi.Name))
+		{
+			<div class="col">
+				<div class="card h-100">
+					@if (!string.IsNullOrWhiteSpace(item.ImageUrl))
+					{
+						<img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" />
+					}
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title">@item.Name</h5>
+						<p class="card-text fw-bold mb-1">@item.Price.ToString("C")</p>
+						@if (!string.IsNullOrWhiteSpace(item.Description))
+						{
+							<p class="card-text">@item.Description</p>
+						}
+						else
+						{
+							<p class="card-text"><em>No Description Provided</em></p>
+						}
+						@if (isAdmin)
+						{
+							<div class="mt-auto">
+								<a asp-controller="MenuItem" asp-action="Edit" asp-route-id="@item.MenuItemId" class="btn btn-outline-secondary me-2">Edit</a>
+								<form asp-controller="MenuItem" asp-action="Delete" asp-route-id="@item.MenuItemId" method="post" class="d-inline">
+									@Html.AntiForgeryToken()
+									<button class="btn btn-danger" type="submit" onclick="return confirm('Delete this menu item?);">Delete</button>
+								</form>
+							</div>
+						}
+					</div>
+				</div>
+			</div>
+		}
+	</div>
 }
 else
 {
@@ -76,44 +113,65 @@ else
 
 <hr/>
 
-<h4>Reviews</h4>
-<p>
-	<a asp-controller="Review" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Add Review</a>
-</p>
+<h4 class="text-center">Reviews</h4>
+
+@if (isAuthenticated)
+{
+	<p>
+		<a asp-controller="Review" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Add Review</a>
+	</p>
+}
+else
+{
+	<p>
+		<em><a asp-area="Identity" asp-page="/Account/Login">Log in</a> to leave a review.</em>
+	</p>
+}
+
 
 @if(Model.Reviews != null && Model.Reviews.Any())
 {
-	<table class="table table-striped">
-		<thead>
-			<tr>
-				<th>Title</th>
-				<th>Rating</th>
-				<th>By</th>
-				<th>Date</th>
-				<th>Content</th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody>
-			@foreach(var rv in Model.Reviews.OrderByDescending(r => r.CreatedAt))
-			{
-				<tr>
-					<td>@rv.Title</td>
-					<td>@rv.Rating / 4</td>
-					<td>@(rv.User?.UserName ?? "Unknown")</td>
-					<td>@rv.CreatedAt.ToString("g")</td>
-					<td>@rv.Content</td>
-					<td>
-						<a asp-controller="Review" asp-action="Edit" asp-route-id="@rv.ReviewId" class="btn btn-outline-secondary">Edit</a>
+	<div class="list-group mb-4">
+		@foreach(var rv in Model.Reviews.OrderByDescending(r => r.CreatedAt))
+		{
+			var isOwner = isAuthenticated && rv.UserId == currentUserId;
+
+			<div class="list-group-item">
+				<div class="d-flex justify-content-between">
+					<div>
+						<h5 class="mb-1">@rv.Title</h5>
+						<small class="text-muted">
+							@rv.CreatedAt.ToString("g") by @(rv.User?.UserName ?? "Unknown")
+						</small>
+					</div>
+					<div class="text-end">
+						<span class="fw-bold">
+							@for(int i = 0; i < rv.Rating; i++)
+							{
+								@:<span>&#9733;</span>
+							}
+							@for (int i = rv.Rating; i < 4; i++)
+							{
+								@:<span class="text-muted">&#9733;</span>
+							}
+						</span>
+					</div>
+				</div>
+				<p class="mt-2 mb-1">@rv.Content</p>
+
+				@if (isOwner)
+				{
+					<div class="mt-2">
+						<a asp-controller="Review" asp-action="Edit" asp-route-id="@rv.ReviewId" class="btn btn-outline-secondary me-2">Edit</a>
 						<form asp-controller="Review" asp-action="Delete" asp-route-id="@rv.ReviewId" method="post" class="d-inline">
 							@Html.AntiForgeryToken()
 							<button type="submit" class="btn btn-danger" onclick="return confirm('Delete this review?');">Delete</button>
 						</form>
-					</td>
-				</tr>
-			}
-		</tbody>
-	</table>
+					</div>
+				}
+			</div>
+		}
+	</div>
 }
 else
 {
@@ -123,5 +181,9 @@ else
 <hr />
 
 <p>
-	<a asp-action="Index" class="btn btn-secondary">Back To List</a>
+	<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back To List</a>
+	@if (isAdmin)
+	{
+		<a asp-controller="Restaurant" asp-action="Index" class="btn btn-outline-secondary ms-2">Back to Manage Restaurants</a>
+	}
 </p>

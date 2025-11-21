@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HungryOClockV2.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class RestaurantController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -18,6 +20,7 @@ namespace HungryOClockV2.Controllers
         }
 
         //get restaurant
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var restaurants = await _context.Restaurants
@@ -95,6 +98,7 @@ namespace HungryOClockV2.Controllers
         }
 
         //details
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
             var restaurant = await _context.Restaurants

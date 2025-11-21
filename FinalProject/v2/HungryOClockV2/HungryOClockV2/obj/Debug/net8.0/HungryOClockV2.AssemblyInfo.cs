@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HungryOClockV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f1955714fc554ad48c3082a3bc3195be93a589")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df3f9cb7bd1acd04172ac4916e47b051c4f266e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("HungryOClockV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HungryOClockV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -94,6 +94,12 @@ namespace HungryOClockV2.Controllers
                 return NotFound();
             }
 
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if(review.UserId != currentUserId)
+            {
+                return Forbid();
+            }
+
             ViewBag.RestaurantName = review.Restaurant?.Name ?? "";
             return View(review);
         }
@@ -132,6 +138,12 @@ namespace HungryOClockV2.Controllers
                 return NotFound();
             }
 
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (review.UserId != currentUserId)
+            {
+                return Forbid();
+            }
+
             existing.Title = review.Title;
             existing.Content = review.Content;
             existing.Rating = review.Rating;
@@ -154,6 +166,12 @@ namespace HungryOClockV2.Controllers
             {
                 TempData["message"] = "Review not found";
                 return RedirectToAction("Index", "Restaurant");
+            }
+
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (review.UserId != currentUserId)
+            {
+                return Forbid();
             }
 
             var restaurantId = review.RestaurantId;

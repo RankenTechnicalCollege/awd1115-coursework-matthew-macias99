@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\views\\reservation\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\views\\reservation\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\views\\restaurant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\views\\restaurant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\finalproject\\v2\\hungryoclockv2\\hungryoclockv2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F21CFAB-9F21-4447-968F-23C25A959C01}|HungryOClockV2\\HungryOClockV2.csproj|solutionrelative:hungryoclockv2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Restaurant\\Details.cshtml",
-              "RelativeDocumentMoniker": "HungryOClockV2\\Views\\Restaurant\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Restaurant\\Details.cshtml",
-              "RelativeToolTip": "HungryOClockV2\\Views\\Restaurant\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T23:53:53.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Reservation\\Edit.cshtml",
-              "RelativeDocumentMoniker": "HungryOClockV2\\Views\\Reservation\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Reservation\\Edit.cshtml",
-              "RelativeToolTip": "HungryOClockV2\\Views\\Reservation\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "HungryOClockV2\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "HungryOClockV2\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T23:52:54.485Z",
+              "WhenOpened": "2025-11-19T21:42:52.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Reservation\\Create.cshtml",
-              "RelativeDocumentMoniker": "HungryOClockV2\\Views\\Reservation\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Reservation\\Create.cshtml",
-              "RelativeToolTip": "HungryOClockV2\\Views\\Reservation\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABNAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HungryOClockV2\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "HungryOClockV2\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T23:47:40.133Z",
+              "WhenOpened": "2025-11-19T21:40:18.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Reservation\\Index.cshtml",
-              "RelativeDocumentMoniker": "HungryOClockV2\\Views\\Reservation\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Views\\Reservation\\Index.cshtml",
-              "RelativeToolTip": "HungryOClockV2\\Views\\Reservation\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-18T23:41:06.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "HungryOClockV2\\Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "HungryOClockV2\\Controllers\\ReservationController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwLQAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "HungryOClockV2\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\FinalProject\\v2\\HungryOClockV2\\HungryOClockV2\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "HungryOClockV2\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwGMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T23:17:53.454Z",
+              "WhenOpened": "2025-11-19T21:33:10.072Z",
               "EditorCaption": ""
             }
           ]

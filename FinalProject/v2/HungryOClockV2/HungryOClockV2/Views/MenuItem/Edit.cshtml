@@ -7,7 +7,7 @@
 
 <div asp-validation-summary="All" class="text-danger"></div>
 
-<form asp-action="Edit" method="post">
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
 	<input type="hidden" asp-for="MenuItemId"/>
 	<input type="hidden" asp-for="RestaurantId" />
 
@@ -32,6 +32,13 @@
 	<div class="mb-3">
 		<label asp-for="ImageUrl" class="form-label"></label>
 		<input asp-for="ImageUrl" class="form-control" />
+		<span asp-validation-for="ImageUrl" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label class="form-label">Upload Image (optional)</label>
+		<input type="file" name="imageFile" class="form-control" />
+		<small class="text-muted">If you upload a new image, this will replace the current one</small>
 		<span asp-validation-for="ImageUrl" class="text-danger"></span>
 	</div>
 
