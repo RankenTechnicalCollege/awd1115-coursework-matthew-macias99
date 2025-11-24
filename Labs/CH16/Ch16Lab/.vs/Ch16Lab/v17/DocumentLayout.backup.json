@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch16\\ch16lab\\stripewebapp\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|solutionrelative:stripewebapp\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch16\\ch16lab\\stripewebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|solutionrelative:stripewebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch16\\ch16lab\\stripewebapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|solutionrelative:stripewebapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch16\\ch16lab\\stripewebapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|solutionrelative:stripewebapp\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch16\\ch16lab\\stripewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|solutionrelative:stripewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch16\\ch16lab\\stripewebapp\\data\\mvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|solutionrelative:stripewebapp\\data\\mvccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|c:\\users\\matthew\\documents\\github\\awd1115-coursework-matthew-macias99\\labs\\ch16\\ch16lab\\stripewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A15BDD2-0BDF-4C19-BFBD-A19C2D392812}|StripeWebApp\\StripeWebApp.csproj|solutionrelative:stripewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "StripeWebApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "StripeWebApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-24T17:47:15.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MvcContext.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Data\\MvcContext.cs",
+              "RelativeDocumentMoniker": "StripeWebApp\\Data\\MvcContext.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Data\\MvcContext.cs",
+              "RelativeToolTip": "StripeWebApp\\Data\\MvcContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:08:18.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "StripeWebApp\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Models\\Item.cs",
+              "RelativeToolTip": "StripeWebApp\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:06:25.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "StripeWebApp\\Views\\Payment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "StripeWebApp\\Views\\Payment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T16:59:38.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "StripeWebApp\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "StripeWebApp\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:48:25.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "StripeWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\Program.cs",
+              "RelativeToolTip": "StripeWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:44:54.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "StripeWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Matthew\\Documents\\GitHub\\awd1115-coursework-matthew-macias99\\Labs\\CH16\\Ch16Lab\\StripeWebApp\\appsettings.json",
+              "RelativeToolTip": "StripeWebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T16:43:43.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
