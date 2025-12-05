@@ -102,8 +102,7 @@
               "RelativeToolTip": "HOT3\\Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-10T00:48:38.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T00:48:38.561Z"
             },
             {
               "$type": "Document",
@@ -163,8 +162,7 @@
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Products\\Create.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwCsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-10T00:11:53.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T00:11:53.446Z"
             },
             {
               "$type": "Document",
@@ -176,8 +174,7 @@
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-10T00:02:16.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T00:02:16.664Z"
             },
             {
               "$type": "Document",
@@ -189,8 +186,7 @@
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T23:58:34.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:58:34.552Z"
             },
             {
               "$type": "Document",
@@ -202,8 +198,7 @@
               "RelativeToolTip": "HOT3\\Areas\\Admin\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:47:47.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:47:47.832Z"
             },
             {
               "$type": "Document",
@@ -228,8 +223,7 @@
               "RelativeToolTip": "HOT3\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T23:29:57.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:29:57.985Z"
             },
             {
               "$type": "Document",
@@ -241,8 +235,7 @@
               "RelativeToolTip": "HOT3\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T23:23:27.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:23:27.654Z"
             },
             {
               "$type": "Document",
@@ -254,8 +247,7 @@
               "RelativeToolTip": "HOT3\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:20:01.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T23:20:01.022Z"
             },
             {
               "$type": "Document",
@@ -339,8 +331,7 @@
               "RelativeToolTip": "HOT3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T21:25:29.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T21:25:29.297Z"
             }
           ]
         }

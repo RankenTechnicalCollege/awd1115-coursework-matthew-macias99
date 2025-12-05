@@ -1,0 +1,52 @@
+﻿@model IEnumerable<HOT3.Models.ApplicationUser>
+
+@{
+	var adminIds = ViewBag.AdminIds as HashSet<string>;
+	Layout = "/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>User Manager</h2>
+
+<form asp-action="CreateAdminRole" method="post">
+	<button class="btn btn-primary mb-3">Create Admin Role</button>
+</form>
+
+<table class="table table-striped">
+	<thead>
+		<th>Username</th>
+		<th>Email</th>
+		<th>Is Admin?</th>
+		<th></th>
+	</thead>
+	<tbody>
+		@foreach(var u in Model)
+		{
+			var isAdmin = adminIds.Contains(u.Id);
+			<tr>
+				<td>@u.UserName</td>
+				<td>@u.Email</td>
+				<td>@(isAdmin ? "Yes" : "No")</td>
+				<td>
+					<form asp-action="DeleteUser" method="post" class="d-inline">
+						<input type="hidden" name="id" value="@u.Id"/>
+						<button class="btn btn-danger">Delete</button>
+					</form>
+					@if (!isAdmin)
+					{
+						<form asp-action="AddToAdmin" method="post" class="d-inline">
+							<input type="hidden" name="id" value="@u.Id"/>
+							<button class="btn btn-secondary">Make Admin</button>
+						</form>
+					}
+					else
+					{
+						<form asp-action="RemoveFromAdmin" method="post" class="d-inline">
+							<input type="hidden" name="id" value="@u.Id"/>
+							<button class="btn btn-warning">Remove Admin</button>
+						</form>
+					}
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
