@@ -1,0 +1,18 @@
+﻿@{
+	ViewBag.Title = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+<p>Welcome to the Admin Dashboard!</p>
+
+<ul class="list-unstyled">
+	<li class="mt-2">
+		<a asp-area="Admin" asp-controller="UserManager" asp-action="Index" class="btn btn-primary">Manage Users</a>
+	</li>
+	<li class="mt-2">
+		<a asp-area="" asp-controller="Restaurant" asp-action="Index" class="btn btn-primary">Manage Restaurants</a>
+	</li>
+	<li class="mt-2">
+		<a asp-area="" asp-controller="Category" asp-action="Index" class="btn btn-primary">Manage Categories</a>
+	</li>
+</ul>
