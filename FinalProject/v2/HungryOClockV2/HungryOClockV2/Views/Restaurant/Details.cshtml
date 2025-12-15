@@ -1,4 +1,4 @@
-﻿@model Restaurant
+﻿@model RestaurantDetailsVM 
 @using System.Security.Claims
 @{
 	ViewBag.Title = "Restaurant Details";
@@ -7,18 +7,18 @@
 	var isAdmin = User.IsInRole("Admin");
 	var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-	var cats = Model.RestaurantCategories
+	var cats = Model.Restaurant.RestaurantCategories
 		.Select(rc => rc.Category?.Name)
 		.Where(n => !string.IsNullOrEmpty(n));
 
 	var catText = string.Join(", ", cats);
 
-	string ratingText = Model.AverageRating.HasValue ? $"{Model.AverageRating.Value:F1} / 4" : "No rating yet";
+	string ratingText = Model.Restaurant.AverageRating.HasValue ? $"{Model.Restaurant.AverageRating.Value:F1} / 4" : "No rating yet";
 
-	string priceText = new string('$', Model.PriceLevel);
+	string priceText = new string('$', Model.Restaurant.PriceLevel);
 }
 
-<h2 class="text-center mt-4">@Model.Name</h2>
+<h2 class="page-title text-center mt-4">@Model.Restaurant.Name</h2>
 
 @if(TempData["message"] != null)
 {
@@ -40,7 +40,7 @@
 	<div class="col-md-4 text-md-end mt-3 mt-md-0">
 		@if (isAuthenticated)
 		{
-			<a asp-controller="Reservation" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Reserve a Table</a>
+			<a asp-controller="Reservation" asp-action="Create" asp-route-restaurantId="@Model.Restaurant.RestaurantId" class="btn btn-primary">Reserve a Table</a>
 			<a asp-controller="Reservation" asp-action="Index" class="btn btn-info">My Reservations</a>
 		}
 	</div>
@@ -49,8 +49,8 @@
 @if (isAdmin)
 {
 	<div class="mb-4">
-		<a asp-action="Edit" asp-route-id="@Model.RestaurantId" class="btn btn-outline-secondary">Edit Restaurant</a>
-		<form asp-action="Delete" asp-route-id="@Model.RestaurantId" method="post" class="d-inline">
+		<a asp-action="Edit" asp-route-id="@Model.Restaurant.RestaurantId" class="btn btn-outline-secondary">Edit Restaurant</a>
+		<form asp-action="Delete" asp-route-id="@Model.Restaurant.RestaurantId" method="post" class="d-inline">
 			@Html.AntiForgeryToken()
 			<button type="submit" class="btn btn-danger" onclick="return confirm('Delete this restaurant? this will remove all data with it')">Delete Restaurant</button>
 		</form>
@@ -63,7 +63,7 @@
 @if (isAdmin)
 {
 	<p>
-		<a asp-controller="MenuItem" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Add Menu Items</a>
+		<a asp-controller="MenuItem" asp-action="Create" asp-route-restaurantId="@Model.Restaurant.RestaurantId" class="btn btn-primary">Add Menu Items</a>
 	</p>
 }
 
@@ -105,6 +105,32 @@
 			</div>
 		}
 	</div>
+	@if(Model.MenuTotalPages > 1)
+	{
+		<nav>
+
+			<ul class="pagination justify-content-center">
+				@if (Model.MenuPage > 1)
+				{
+					<li class="page-item">
+						<a class="page-link" asp-action="Details" asp-route-slug="@Model.Restaurant.Slug" asp-route-menuPage="@(Model.MenuPage - 1)">Previous</a>
+					</li>
+				}
+				@for (int i = 1; i <= Model.MenuTotalPages; i++)
+				{
+					<li class="page-item @(i == Model.MenuPage ? "active" : "")">
+						<a class="page-link" asp-action="Details" asp-route-slug="@Model.Restaurant.Slug" asp-route-menuPage="@i">@i</a>
+					</li>
+				}
+				@if (Model.MenuPage < Model.MenuTotalPages)
+				{
+					<li class="page-item">
+						<a class="page-link" asp-action="Details" asp-route-slug="@Model.Restaurant.Slug" asp-route-menuPage="@(Model.MenuPage + 1)">Next</a>
+					</li>
+				}
+			</ul>
+		</nav>
+	}
 }
 else
 {
@@ -118,7 +144,7 @@ else
 @if (isAuthenticated)
 {
 	<p>
-		<a asp-controller="Review" asp-action="Create" asp-route-restaurantId="@Model.RestaurantId" class="btn btn-primary">Add Review</a>
+		<a asp-controller="Review" asp-action="Create" asp-route-restaurantId="@Model.Restaurant.RestaurantId" class="btn btn-primary">Add Review</a>
 	</p>
 }
 else
@@ -129,10 +155,10 @@ else
 }
 
 
-@if(Model.Reviews != null && Model.Reviews.Any())
+@if (Model.Restaurant.Reviews != null && Model.Restaurant.Reviews.Any())
 {
 	<div class="list-group mb-4">
-		@foreach(var rv in Model.Reviews.OrderByDescending(r => r.CreatedAt))
+		@foreach (var rv in Model.Restaurant.Reviews.OrderByDescending(r => r.CreatedAt))
 		{
 			var isOwner = isAuthenticated && rv.UserId == currentUserId;
 

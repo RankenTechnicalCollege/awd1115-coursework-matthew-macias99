@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-12-14T22:26:25.4936807Z||;True|2025-12-14T15:35:28.4977972-06:00||;True|2025-12-14T15:32:35.8823081-06:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=hungryoclockv2dbserver.database.windows.net,1433;Initial Catalog=HungryOClockV2_db;Authentication=ActiveDirectoryManagedIdentity" />
+    <AzureDBConnectionStrings Include="REDACTED" />
+    <AzureDBConnectionStrings Include="Server=tcp:hungryoclockv2dbserver.database.windows.net;Authentication=Active Directory Default;Database=HungryOClockV2_db" />
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=hungryoclockv2dbserver.database.windows.net,1433%3bInitial Catalog=HungryOClockV2db%3bAuthentication=ActiveDirectoryManagedIdentity</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

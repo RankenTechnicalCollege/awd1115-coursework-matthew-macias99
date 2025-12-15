@@ -42,6 +42,8 @@ namespace HungryOClockV2.Controllers
                 return NotFound();
             }
 
+            ViewBag.RestaurantSlug = restaurant.Slug;
+
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
 
@@ -65,6 +67,8 @@ namespace HungryOClockV2.Controllers
 
             ViewBag.RestaurantName = restaurant?.Name ?? "";
 
+            reservation.ReservationDateTime = NormalizeToHalfHour(reservation.ReservationDateTime);
+
             if(reservation.ReservationDateTime <= DateTime.Now)
             {
                 ModelState.AddModelError(nameof(Reservation.ReservationDateTime), "Reservation time must be in the future");
@@ -80,28 +84,37 @@ namespace HungryOClockV2.Controllers
                 ModelState.AddModelError(nameof(Reservation.ContactEmail), "Contact email is required");
             }
 
+            bool slotTaken = await _context.Reservations.AnyAsync(r =>
+            r.RestaurantId == reservation.RestaurantId &&
+            r.ReservationDateTime == reservation.ReservationDateTime);
+
+            if (slotTaken)
+            {
+                ModelState.AddModelError(nameof(Reservation.ReservationDateTime), "That time slot is already booked! Try another!");
+            }
+
             if (!ModelState.IsValid)
             {
+                var restaurantCheck = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == reservation.RestaurantId);
+
+                if (restaurantCheck == null)
+                {
+                    return RedirectToAction("Index", "Restaurant");
+                }
+
+                ViewBag.RestaurantSlug = restaurantCheck?.Name ?? "";
+                ViewBag.RestaurantSlug = restaurantCheck.Slug;
+
                 return View(reservation);
             }
 
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            reservation.UserId = userId;
-            reservation.CreatedAt = DateTime.Now;
+            reservation.UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             _context.Reservations.Add(reservation);
+            await _context.SaveChangesAsync();
+            TempData["message"] = "Reservation created!";
 
-            try
-            {
-                await _context.SaveChangesAsync();
-                TempData["message"] = "Reservation created!";
-                return RedirectToAction("Details", "Restaurant", new { id = reservation.RestaurantId });
-            }
-            catch (DbUpdateException)
-            {
-                ModelState.AddModelError(nameof(Reservation.ReservationDateTime), "Time slot already booked! Try again!");
-                return View(reservation);
-            }
+            return RedirectToAction("Details", "Restaurant", new {slug = restaurant?.Slug ?? "" });
         }
 
         //get edit reservation
@@ -117,6 +130,7 @@ namespace HungryOClockV2.Controllers
                 return NotFound();
             }
 
+
             var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (reservation.UserId != currentUserId)
             {
@@ -124,6 +138,7 @@ namespace HungryOClockV2.Controllers
             }
 
             ViewBag.RestaurantName = reservation.Restaurant?.Name ?? "";
+            ViewBag.RestaurantSlug = reservation.Restaurant?.Slug ?? "";
             return View(reservation);
         }
 
@@ -132,6 +147,8 @@ namespace HungryOClockV2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Reservation reservation)
         {
+            reservation.ReservationDateTime = NormalizeToHalfHour(reservation.ReservationDateTime);
+
             var restaurant = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == reservation.RestaurantId);
 
             ViewBag.RestaurantName = restaurant?.Name ?? "";
@@ -151,8 +168,19 @@ namespace HungryOClockV2.Controllers
                 ModelState.AddModelError(nameof(Reservation.ContactEmail), "Contact email is required");
             }
 
+            bool slotTaken = await _context.Reservations.AnyAsync(r =>
+                r.RestaurantId == reservation.RestaurantId &&
+                r.ReservationId != reservation.ReservationId &&
+                r.ReservationDateTime == reservation.ReservationDateTime);
+
+            if (slotTaken)
+            {
+                ModelState.AddModelError(nameof(Reservation.ReservationDateTime), "That time slot is already booked! Try another!");
+            }
+
             if (!ModelState.IsValid)
             {
+
                 return View(reservation);
             }
 
@@ -164,7 +192,7 @@ namespace HungryOClockV2.Controllers
             }
 
             var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (reservation.UserId != currentUserId)
+            if (existing.UserId != currentUserId)
             {
                 return Forbid();
             }
@@ -210,6 +238,15 @@ namespace HungryOClockV2.Controllers
             await _context.SaveChangesAsync();
             TempData["message"] = "Reservation cancelled";
             return RedirectToAction(nameof(Index));
+        }
+
+        private DateTime NormalizeToHalfHour(DateTime dt)
+        {
+            dt = dt.AddSeconds(-dt.Second).AddMilliseconds(-dt.Millisecond);
+
+            int minute = dt.Minute < 30 ? 0 : 30;
+
+            return new DateTime(dt.Year, dt.Month, dt.Day, dt.Hour, minute, 0, dt.Kind);
         }
 
     }

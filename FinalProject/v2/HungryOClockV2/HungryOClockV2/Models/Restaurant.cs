@@ -11,6 +11,8 @@
         //comes from reviews. can be null if no reviews yet
         public decimal? AverageRating { get; set; }
 
+        public string Slug { get; set; }
+
         //nav
         public ICollection<RestaurantCategory> RestaurantCategories { get; set; } = new List<RestaurantCategory>();
         public ICollection<MenuItem> MenuItems { get; set; } = new List<MenuItem>();

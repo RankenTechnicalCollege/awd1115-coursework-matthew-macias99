@@ -29,6 +29,7 @@ namespace HungryOClockV2.Controllers
             }
 
             ViewBag.RestaurantName = restaurant.Name;
+            ViewBag.RestaurantSlug = restaurant.Slug;
 
             var review = new Review
             {
@@ -63,6 +64,7 @@ namespace HungryOClockV2.Controllers
             {
                 var restaurant = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == review.RestaurantId);
                 ViewBag.RestaurantName = restaurant?.Name ?? "";
+                ViewBag.RestaurantSlug = restaurant?.Slug ?? "";
                 return View(review);
             }
 
@@ -80,7 +82,16 @@ namespace HungryOClockV2.Controllers
             await _context.SaveChangesAsync();
             await UpdateRestaurantAverageRating(review.RestaurantId);
             TempData["message"] = "Review Added";
-            return RedirectToAction("Details", "Restaurant", new { id = review.RestaurantId });
+
+            var restaurantCheck = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == review.RestaurantId);
+
+            if (restaurantCheck == null)
+            {
+                return RedirectToAction("Index", "Restaurant");
+            }
+
+            return RedirectToAction("Details", "Restaurant", new { slug = restaurantCheck.Slug });
+
         }
 
         //get edit review
@@ -101,6 +112,7 @@ namespace HungryOClockV2.Controllers
             }
 
             ViewBag.RestaurantName = review.Restaurant?.Name ?? "";
+            ViewBag.RestaurantSlug = review.Restaurant?.Slug ?? "";
             return View(review);
         }
 
@@ -128,6 +140,7 @@ namespace HungryOClockV2.Controllers
             {
                 var restaurant = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == review.RestaurantId);
                 ViewBag.RestaurantName = restaurant?.Name ?? "";
+                ViewBag.RestaurantSlug = restaurant?.Slug ?? "";
                 return View(review);
             }
 
@@ -139,7 +152,7 @@ namespace HungryOClockV2.Controllers
             }
 
             var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (review.UserId != currentUserId)
+            if (existing.UserId != currentUserId)
             {
                 return Forbid();
             }
@@ -152,7 +165,15 @@ namespace HungryOClockV2.Controllers
             await UpdateRestaurantAverageRating(existing.RestaurantId);
 
             TempData["message"] = "Review Updated!";
-            return RedirectToAction("Details", "Restaurant", new { id = existing.RestaurantId });
+
+            var restaurantCheck = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == existing.RestaurantId);
+
+            if (restaurantCheck == null)
+            {
+                return RedirectToAction("Index", "Restaurant");
+            }
+
+            return RedirectToAction("Details", "Restaurant", new { slug = restaurantCheck.Slug });
         }
 
         //post delete
@@ -182,7 +203,15 @@ namespace HungryOClockV2.Controllers
             await UpdateRestaurantAverageRating(restaurantId);
 
             TempData["message"] = "Review deleted!";
-            return RedirectToAction("Details", "Restaurant", new { id = restaurantId });
+
+            var restaurantCheck = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == restaurantId);
+
+            if (restaurantCheck == null)
+            {
+                return RedirectToAction("Index", "Restaurant");
+            }
+
+            return RedirectToAction("Details", "Restaurant", new { slug = restaurantCheck.Slug });
         }
 
         //recompute average rating

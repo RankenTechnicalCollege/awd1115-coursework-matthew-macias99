@@ -42,5 +42,5 @@
 	</div>
 
 	<button type="submit" class="btn btn-success">Save</button>
-	<a asp-controller="Restaurant" asp-action="Details" asp-route-id="@Model.RestaurantId" class="btn btn-outline-secondary">Cancel</a>
+	<a asp-controller="Restaurant" asp-action="Details" asp-route-slug="@ViewBag.RestaurantSlug" class="btn btn-outline-secondary">Cancel</a>
 </form>

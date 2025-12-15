@@ -13,7 +13,7 @@
 
 	<div class="mb-3">
 		<label asp-for="ReservationDateTime" class="form-label">Date and Time</label>
-		<input asp-for="ReservationDateTime" type="datetime-local" class="form-control" />
+		<input asp-for="ReservationDateTime" type="datetime-local" asp-format="{0:yyyy-MM-ddTHH:mm}" class="form-control" />
 		<span asp-validation-for="ReservationDateTime" class="text-danger"></span>
 	</div>
 
@@ -36,6 +36,46 @@
 	</div>
 
 	<button type="submit" class="btn btn-success">Save</button>
-	<a asp-controller="Restaurant" asp-action="Details" asp-route-id="@Model.RestaurantId" class="btn btn-outline-secondary">Cancel</a>
+	<a asp-controller="Reservation" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
 </form>
+
+@section Scripts {
+	<script>
+		document.addEventListener("DOMContentLoaded", function(){
+			var input = document.getElementById("ReservationDateTime");
+
+			if(!input) return;
+
+			input.addEventListener("change", function(){
+				if(!input.value) return;
+
+				var dt = new Date(input.value;
+
+				if(isNaN(dt.getTime())){
+					return;
+				}
+
+				var minutes = dt.getMinutes();
+				minutes = minutes < 30 ? 0 : 30;
+
+				dt.setMinutes(minutes);
+				dt.setSeconds(0);
+				dt.setMilliseconds(0);
+
+				function pad(n){
+					return n.toString().padStart(2, "0");
+				}
+
+				var formatted =
+					dt.getFullYear() + "-" +
+					pad(dt.getMonth() + 1) + "-" +
+					pad(dt.getDate()) + "T" +
+					pad(dt.getHours()) + ":" +
+					pad(dt.getMinutes());
+
+				input.value = formatted;
+			});
+		});
+	</script>
+}
 

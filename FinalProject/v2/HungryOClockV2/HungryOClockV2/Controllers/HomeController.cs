@@ -17,8 +17,10 @@ namespace HungryOClockV2.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string? searchTerm, int? categoryId)
+        public async Task<IActionResult> Index(string? searchTerm, int? categoryId, int page = 1)
         {
+            const int pageSize = 9;
+            
             var query = _context.Restaurants
                 .Include(r => r.RestaurantCategories)
                 .ThenInclude(rc => rc.Category)
@@ -36,7 +38,13 @@ namespace HungryOClockV2.Controllers
                 query = query.Where(r => r.RestaurantCategories.Any(rc => rc.CategoryId == categoryId.Value));
             }
 
-            var restaurants = await query.OrderBy(r => r.Name).ToListAsync();
+            var totalRestaurants = await query.CountAsync();
+
+            var restaurants = await query
+                .OrderBy(r => r.Name)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
 
             var categories = await _context.Categories
                 .OrderBy(c => c.Name)
@@ -59,7 +67,9 @@ namespace HungryOClockV2.Controllers
                 SearchTerm = searchTerm,
                 CategoryId = categoryId,
                 Categories = categories,
-                Restaurants = restaurants
+                Restaurants = restaurants,
+                CurrentPage = page,
+                TotalPages = (int)Math.Ceiling(totalRestaurants / (double)pageSize)
             };
 
             return View(vm);

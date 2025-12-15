@@ -195,6 +195,10 @@ namespace HungryOClockV2.Data.Migrations
                     b.Property<int>("PriceLevel")
                         .HasColumnType("int");
 
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("RestaurantId");
 
                     b.ToTable("Restaurants");

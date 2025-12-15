@@ -1,6 +1,7 @@
 ﻿using HungryOClockV2.Data;
 using HungryOClockV2.Models;
 using HungryOClockV2.Models.ViewModels;
+using HungryOClockV2.Models.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -91,6 +92,11 @@ namespace HungryOClockV2.Controllers
                 });
             }
 
+            if (ModelState.IsValid)
+            {
+                restaurant.Slug = SlugHelper.GenerateSlug(model.Name);
+            }
+
             _context.Restaurants.Add(restaurant);
             await _context.SaveChangesAsync();
             TempData["message"] = "Restaurant created successfully!";
@@ -99,22 +105,49 @@ namespace HungryOClockV2.Controllers
 
         //details
         [AllowAnonymous]
-        public async Task<IActionResult> Details(int id)
+        [HttpGet]
+        public async Task<IActionResult> Details(string slug, int menuPage = 1)
         {
+            const int menuPageSize = 3;
+            
+            if (string.IsNullOrWhiteSpace(slug))
+            {
+                return NotFound();
+            }
+
             var restaurant = await _context.Restaurants
                 .Include(r => r.RestaurantCategories)
                 .ThenInclude(rc => rc.Category)
                 .Include(r => r.MenuItems)
                 .Include(r => r.Reviews)
                 .ThenInclude(rv => rv.User)
-                .FirstOrDefaultAsync(r => r.RestaurantId == id);
+                .FirstOrDefaultAsync(r => r.Slug == slug);
 
             if(restaurant == null)
             {
                 return NotFound();
             }
 
-            return View(restaurant);
+            var totalMenuItems = await _context.MenuItems
+                .Where(mi => mi.RestaurantId == restaurant.RestaurantId)
+                .CountAsync();
+
+            var menuItems = await _context.MenuItems
+                .Where(mi => mi.RestaurantId == restaurant.RestaurantId)
+                .OrderBy(mi => mi.Name)
+                .Skip((menuPage - 1) * menuPageSize)
+                .Take(menuPageSize)
+                .ToListAsync();
+
+            var vm = new RestaurantDetailsVM
+            {
+                Restaurant = restaurant,
+                MenuItems = menuItems,
+                MenuPage = menuPage,
+                MenuTotalPages = (int)Math.Ceiling(totalMenuItems / (double)menuPageSize)
+            };
+
+            return View(vm);
         }
 
         //get edit restaurant
@@ -205,6 +238,13 @@ namespace HungryOClockV2.Controllers
                     CategoryId = catId,
                     RestaurantId = restaurant.RestaurantId
                 });
+            }
+
+            if (ModelState.IsValid)
+            {
+                restaurant.Slug = SlugHelper.GenerateSlug(model.Name);
+                _context.Update(restaurant);
+                await _context.SaveChangesAsync();
             }
 
             await _context.SaveChangesAsync();

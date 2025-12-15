@@ -32,7 +32,8 @@ namespace HungryOClockV2.Controllers
                 return NotFound();
             }
 
-            ViewBag.RestuarantName = restaurant.Name;
+            ViewBag.RestaurantName = restaurant.Name;
+            ViewBag.RestaurantSlug = restaurant.Slug;
 
             var menuItem = new MenuItem
             {
@@ -61,6 +62,7 @@ namespace HungryOClockV2.Controllers
             {
                 var restaurant = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == menuItem.RestaurantId);
                 ViewBag.RestaurantName = restaurant?.Name ?? "";
+                ViewBag.RestaurantSlug = restaurant?.Slug ?? "";
                 return View(menuItem);
             }
 
@@ -73,7 +75,15 @@ namespace HungryOClockV2.Controllers
             _context.MenuItems.Add(menuItem);
             await _context.SaveChangesAsync();
             TempData["message"] = "Menu item added!";
-            return RedirectToAction("Details", "Restaurant", new {id = menuItem.RestaurantId});
+
+            var restaurantCheck = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == menuItem.RestaurantId);
+
+            if (restaurantCheck == null)
+            {
+                return RedirectToAction("Index", "Restaurant");
+            }
+
+            return RedirectToAction("Details", "Restaurant", new {slug = restaurantCheck.Slug});
         }
 
         //get edit menu item
@@ -89,6 +99,7 @@ namespace HungryOClockV2.Controllers
             }
 
             ViewBag.RestaurantName = menuItem.Restaurant?.Name ?? "";
+            ViewBag.RestaurantSlug = menuItem.Restaurant?.Slug ?? "";
             return View(menuItem);
         }
 
@@ -111,6 +122,7 @@ namespace HungryOClockV2.Controllers
             {
                 var restaurant = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == menuItem.RestaurantId);
                 ViewBag.RestaurantName = restaurant?.Name ?? "";
+                ViewBag.RestaurantSlug = restaurant?.Slug ?? "";
                 return View(menuItem);
             }
 
@@ -137,7 +149,15 @@ namespace HungryOClockV2.Controllers
 
             await _context.SaveChangesAsync();
             TempData["message"] = "Menu item updated!";
-            return RedirectToAction("Details", "Restaurant", new { id = existing.RestaurantId });
+
+            var restaurantCheck = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == existing.RestaurantId);
+
+            if (restaurantCheck == null)
+            {
+                return RedirectToAction("Index", "Restaurant");
+            }
+
+            return RedirectToAction("Details", "Restaurant", new { slug = restaurantCheck.Slug });
         }
 
         //post delete menu item
@@ -158,7 +178,15 @@ namespace HungryOClockV2.Controllers
             _context.MenuItems.Remove(menuItem);
             await _context.SaveChangesAsync();
             TempData["message"] = "Menu item deleted";
-            return RedirectToAction("Details", "Restaurant", new {id = restaurantId});
+
+            var restaurantCheck = await _context.Restaurants.FirstOrDefaultAsync(r => r.RestaurantId == restaurantId);
+
+            if (restaurantCheck == null)
+            {
+                return RedirectToAction("Index", "Restaurant");
+            }
+
+            return RedirectToAction("Details", "Restaurant", new {slug = restaurantCheck.Slug});
         }
 
         //helper for image uploading
